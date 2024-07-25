@@ -4,10 +4,12 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { IconButton } from '@mui/material';
 import GoogleIcon from '@mui/icons-material/Google';
+import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <div className='footerSection'>
-                <div className="manageWidth">
+            <div className="manageWidth">
+                <div className='footerWidth'>
                     <div className="row">
                         <div className="col-lg-5 col-md-6 col-sm-8">
                             <div className="footerLogoContent">
@@ -28,12 +30,12 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-sm-4 mt-4">
+                        <div className="col-lg-2 col-md-3 col-sm-4 mt-4 companyCol">
                             <div className="footerHref">
                                 <h3>Company</h3>
                                 <ul>
                                     <li>
-                                        <a href="#">About</a>
+                                        <Link to="/about">About</Link>
                                     </li>
                                     <li>
                                         <a href="#">Jobs</a>
@@ -44,7 +46,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-8 mt-4">
+                        <div className="col-lg-3 col-md-3 col-sm-8 mt-4 servicesCol">
                             <div className="footerHref">
                                 <h3>Services</h3>
                                 <ul>
@@ -63,7 +65,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-5 col-sm-4 mt-4">
+                        <div className="col-lg-2 col-md-5 col-sm-4 mt-4 ourNewsCol">
                             <div className="footerHref">
                                 <h3>Our News</h3>
                                 <ul>
@@ -71,7 +73,7 @@ export default function Footer() {
                                         <a href="#">Latest news</a>
                                     </li>
                                     <li>
-                                        <a href="#">Insights</a>
+                                        <Link to="/insights">Insights</Link>
                                     </li>
                                     <li>
                                         <a href="#">Compaigns</a>
@@ -92,6 +94,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     )
 }

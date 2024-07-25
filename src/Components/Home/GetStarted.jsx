@@ -2,11 +2,12 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 import ContactUs from '../../assets/images/icon/icon4.svg';
-import  GetConsultation from '../../assets/images/icon/icon5.svg';
+import GetConsultation from '../../assets/images/icon/icon5.svg';
 import CostEstimate from '../../assets/images/icon/icon6.svg';
 import ProjectKickoff from '../../assets/images/icon/icon7.svg';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const getStartedModels = [
     {
@@ -15,8 +16,8 @@ const getStartedModels = [
         description: 'Fill out the contact form protected by NDA, book a calendar and schedule a Zoom Meeting with our experts.'
     },
     {
-        imgSrc:  GetConsultation,
-        title: ' Get a Consultation',
+        imgSrc: GetConsultation,
+        title: 'Get a Consultation',
         description: 'Get on a call with our team to know the feasibility of your project idea.'
     },
     {
@@ -30,11 +31,10 @@ const getStartedModels = [
         description: 'Once the Project is Signed, we bring together a team from a range of disciplines to kick start your project.'
     },
     {
-        imgSrc:  GetConsultation,
-        title: ' Get a Consultation',
+        imgSrc: GetConsultation,
+        title: 'Get a Consultation',
         description: 'Get on a call with our team to know the feasibility of your project idea.'
     },
-    
 ];
 
 export default function GetStarted() {
@@ -48,8 +48,12 @@ export default function GetStarted() {
                     slidesPerView={4}
                     spaceBetween={30}
                     loop={true}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
                     breakpoints={{
-                        280 : {
+                        280: {
                             slidesPerView: 1,
                             spaceBetween: 10,
                         },
@@ -73,7 +77,7 @@ export default function GetStarted() {
                     pagination={{
                         clickable: true,
                     }}
-                    modules={[Pagination]}
+                    modules={[Pagination, Autoplay]}
                     className="mySwiper"
                 >
                     {getStartedModels.map((model, index) => (

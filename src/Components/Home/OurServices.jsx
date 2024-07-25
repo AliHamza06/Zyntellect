@@ -40,12 +40,12 @@ const servicesData = [
 const servicesConsultingData = [
     {
         image: SowtearConsulting,
-        title: 'AI Agents Development',
+        title: 'Software Consulting',
         description: 'Our software consulting services provide strategic guidance and technical expertise to help...'
     },
     {
         image: AgentDevelopment,
-        title: 'AI Development',
+        title: 'AI Agents Development',
         description: 'Leveraging advanced AI agent development tools like crewAI and AutoGen Studio, we build intelligent...'
     },
     {

@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Logo from '../../assets/images/logo.png';
 import { Button, Link } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
+import ServiceDropdown from './ServiceDropdown';
+import Logo from '../../assets/images/logo.png';
+import SideLogo from '../../assets/images/sideLogo.png';
 
 export default function Header() {
     const navigate = useNavigate();
@@ -23,11 +25,7 @@ export default function Header() {
     };
 
     const handleScroll = () => {
-        if (window.scrollY > 0) {
-            setScrolled(true);
-        } else {
-            setScrolled(false);
-        }
+        setScrolled(window.scrollY > 0);
     };
 
     useEffect(() => {
@@ -60,8 +58,8 @@ export default function Header() {
         <header className={`navbar_main ${scrolled ? 'scrolled' : ''} ${location.pathname !== '/' ? 'otherStyle' : ''}`}>
             <div className="manageWidth">
                 <nav className="navbar navbar-expand-xl mainHeader" ref={navbarRef}>
-                    <div className="container-fluid px-sm-3 px-0">
-                        <a className="navbar-brand" onClick={() => { navigate('/') }}>
+                    <div className="container-fluid p-0 containerFluidPadd">
+                        <a className="navbar-brand" onClick={() => navigate('/')}>
                             <img src={Logo} alt="" className='headerLogo' />
                         </a>
                         <button
@@ -77,41 +75,44 @@ export default function Header() {
                             </span>
                         </button>
                         <div
-                            className={`collapse navbar-collapse ${isNavbarVisible ? 'visible' : ''}`}
+                            className={`navCollapse collapse navbar-collapse ${isNavbarVisible ? 'visible' : ''}`}
                             id="navbarSupportedContent"
                         >
-                            <a className="navbar-brand" href="#">
-                                <img src={Logo} alt="" className='headerLogo headerLogo2' />
+                            <a className="navbar-brand-side" onClick={() => navigate('/')}>
+                                <img src={SideLogo} alt="" className='headerLogo headerLogo2' />
                             </a>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 listItem">
                                 <li className="nav-item">
-                                    <Link className="nav-link" onClick={() => { navigate('/') }}>
+                                    <Link className="nav-link" onClick={() => navigate('/')}>
                                         <Button className={location.pathname === '/' ? 'activeLink' : ''}>Home</Button>
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" onClick={() => { navigate('/services') }}>
+                                <li className="nav-item" id='services'>
+                                    <Link className="nav-link" onClick={() => navigate('/services')}>
                                         <Button className={location.pathname === '/services' ? 'activeLink' : ''}>Services</Button>
                                     </Link>
+                                    <div className='dropdownContent'>
+                                        <ServiceDropdown />
+                                    </div>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" onClick={() => { navigate('/industries') }}>
+                                    <Link className="nav-link" onClick={() => navigate('/industries')}>
                                         <Button className={location.pathname === '/industries' ? 'activeLink' : 'colorWhite'}>Industries</Button>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="#">
-                                        <Button className='colorWhite'>Insights</Button>
+                                    <Link className="nav-link" onClick={() => navigate('/insights')}>
+                                        <Button className={location.pathname === '/insights' ? 'activeLink' : 'colorWhite'}>Insights</Button>
+                                    </Link>
+                                </li>
+                                <li className="nav-item workLi">
+                                    <Link className="nav-link" onClick={() => navigate('/work')}>
+                                        <Button className={location.pathname === '/work' ? 'activeLink' : 'colorWhite'}>Work</Button>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="#">
-                                        <Button className='colorWhite'>Work</Button>
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="#">
-                                        <Button className='colorWhite'>About</Button>
+                                    <Link className="nav-link" onClick={() => navigate('/about')}>
+                                        <Button className={location.pathname === '/about' ? 'activeLink' : 'colorWhite'}>About</Button>
                                     </Link>
                                 </li>
                             </ul>

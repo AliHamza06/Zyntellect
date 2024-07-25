@@ -12,7 +12,7 @@ export default function GetFree() {
                     <div className="col-lg-7 col-md-12 mt-lg-0 mt-3">
                         <div className='getFreeForm'>
                             <div className='getFreeInput'>
-                                <input type="text" className='form-control' placeholder="Your Email" />
+                                <input type="text" className='form-control' placeholder="Your email" />
                                 <Button>Book a Consultation</Button>
                             </div>
                             <div className='callUsSec'>

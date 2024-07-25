@@ -5,7 +5,8 @@ import ProfileImg from '../../assets/images/left pic.svg'
 export default function NewsLetter() {
     return (
         <div className='manageWidth'>
-            <div className="subscribe-section">
+            <div className="row subscribe-section">
+                <div className="col-lg-6 col-md-12 col-sm-12 newsImgCol">
                 <div className="image-container">
                     <img
                         src={ProfileImg}
@@ -13,6 +14,8 @@ export default function NewsLetter() {
                         className="profile-image"
                     />
                 </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 newsContentCol">
                 <div className="subscription-container">
                     <h2>Subscribe to newsletter</h2>
                     <p>Get new features unlocked</p>
@@ -22,6 +25,7 @@ export default function NewsLetter() {
                             <SendOutlinedIcon />
                         </IconButton>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
