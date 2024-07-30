@@ -145,7 +145,7 @@ body {
     display: none;
     background: #ffffff;
     z-index: 999;
-    transform: translateY(2px);
+    transform: translateY(1px);
     box-shadow: 0px 0px 10px -3px #00000021;
 }
 
@@ -153,11 +153,18 @@ body {
     display: block !important;
 }
 
-/* Style the tab */
+#industries:hover .dropdownContent {
+    display: block !important;
+}
+
+.DropCol {
+    padding: 0 6px;
+}
+
 .tab {
     float: left;
     background-color: #ffffff;
-    /* width: 100%; */
+    width: 100%;
     max-width: 250px;
 }
 
@@ -221,10 +228,12 @@ body {
 .dropCard a:hover {
     color: #000000;
 }
+
 .custom-accordion-item {
     border: none;
     margin-bottom: .5rem;
 }
+
 .custom-accordion-item:first-of-type {
     border-top: none;
 }
@@ -234,36 +243,42 @@ body {
     color: #766DF4;
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
-    
+
 }
-.custom-accordion-header button:focus{
+
+.custom-accordion-header button:focus {
     box-shadow: none !important;
     border: none !important;
 }
-.custom-accordion-header .accordion-button:not(.collapsed){
+
+.custom-accordion-header .accordion-button:not(.collapsed) {
     background-color: #F7F7FC;
     color: #766DF4;
     box-shadow: none !important;
 }
-.custom-accordion-header .accordion-button{
+
+.custom-accordion-header .accordion-button {
     --bs-accordion-btn-icon-width: 1rem;
     padding: 14px 12px !important;
-    font-size: 16px; 
+    font-size: 16px;
     font-family: 'DM Sans';
     font-weight: 600;
     line-height: 21.04px;
     color: #00245B;
 }
+
 .custom-accordion-header button:hover {
     background-color: #F7F7FC;
     color: #766DF4;
 }
+
 .custom-accordion-body {
     padding: 14px 12px 12px 12px;
     background-color: #fff;
     border: none;
     transition: background-color 0.2s;
 }
+
 .custom-accordion-body p {
     margin: 0;
     font-family: 'DM Sans';
@@ -272,9 +287,11 @@ body {
     line-height: 19px;
     color: #000000;
 }
-.accordionContainer{
+
+.accordionContainer {
     display: none;
 }
+
 /* Header.css */
 
 .navbar_main {
@@ -995,7 +1012,7 @@ body {
     font-family: 'Helvetica';
     font-size: 48px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 60px;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -1555,6 +1572,197 @@ body {
     justify-content: end;
 }
 
+.herosection2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 1rem; */
+}
+
+.herosection2 h2 {
+    font-family: 'Helvetica';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #00245B;
+}
+
+.herosection2 p {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.04px;
+    text-align: left;
+    color: #737491;
+    /* margin-bottom: 0; */
+}
+
+.counterCard h4 {
+    font-family: 'Helvetica';
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 65.2px;
+    text-align: center;
+    color: #00245B;
+}
+
+.counterCard h5 {
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: center;
+    color: #737491;
+    margin-bottom: 0;
+}
+
+.ourGenerativeCard {
+    align-items: start !important;
+}
+
+.ourGenerativeCard h4,
+p {
+    text-align: start !important;
+}
+
+.ourGenerativeCard h4 {
+    margin-top: 1.5rem;
+}
+
+.ourGenerativeCard a {
+    text-decoration: none;
+}
+
+.ourGenerativeCard img {
+    width: 60px !important;
+}
+
+.driveInnovation {
+    background-image: url(../images/icon/ourBack.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    /* min-height: 310px; */
+    margin: 0 2rem;
+}
+
+.driveInnovationDesc {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.driveInnovationDesc p {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.04px;
+    text-align: left;
+}
+
+.driveInnovationButton {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1.5rem;
+}
+
+.getStartedBtn {
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+    background-color: #2B53EF !important;
+    font-family: 'DM Sans' !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    padding: 11px 18px !important;
+    border-radius: unset !important;
+}
+
+#brow img {
+    border: 1px solid #707070;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#brow img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stackCard {
+    position: relative;
+    border: 1px solid #cbcbcb !important;
+    min-height: 288px;
+    padding: 30px 5px 45px 5px;
+}
+
+.stackCard h2 {
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: center;
+    color: #00245B;
+    margin-bottom: 0;
+}
+
+.toolImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 2rem;
+}
+
+.toolImgDiv img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centerLogo {
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.stackCard2 {
+    min-height: 170px !important;
+    display: flex;
+    align-items: center !important;
+    padding: 25px 20px 25px 20px;
+}
+.stackCard2 .row{
+    width: 100%;
+}
+.frameWorkCol{
+    display: flex;
+    align-items: center;
+}
+.stackCard2 h2 {
+    text-align: start;
+}
+
+.secondtab {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modalcontent {
+    background-color: #E5EBF9;
+    border-radius: 4px;
+    padding: 18px 14px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.04px;
+    color: #000000;
+}
+
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -1569,6 +1777,18 @@ body {
 }
 
 @media (max-width: 1440px) {
+    .modalcontent {
+        padding: 17px 14px;
+        font-size: 17px;
+    }
+    .driveInnovationDesc p {
+        font-size: 20px;
+    }
+
+    .getStartedBtn {
+        font-size: 20px !important;
+    }
+
     .dropCard a {
         font-size: 14px;
     }
@@ -1770,10 +1990,47 @@ body {
 }
 
 @media (max-width : 1200px) {
-    .accordionContainer{
+    .secondtab {
+        gap: 20px;
+    }
+    .driveInnovationDesc p {
+        font-size: 18px;
+    }
+
+    .getStartedBtn {
+        font-size: 18px !important;
+        padding: 9px 18px !important;
+    }
+
+    .counterCard {
+        padding-bottom: 4rem;
+    }
+
+    .counterCard h5 {
+        font-size: 20px;
+        line-height: 26.6px;
+    }
+
+    .counterCard h4 {
+        font-size: 48px;
+        line-height: 55.2px;
+    }
+
+    .herosection2 h2 {
+        font-size: 37px;
+        line-height: 48px;
+    }
+
+    .herosection2 p {
+        font-size: 18px;
+        line-height: 25.04px;
+    }
+
+    .accordionContainer {
         display: block;
         margin-top: 8px;
     }
+
     .dropdownContent {
         position: relative;
     }
@@ -2036,6 +2293,38 @@ body {
 }
 
 @media (max-width : 992px) {
+    .stackCard2 .row {
+        width: unset;
+    }
+    .stackCard2 {
+        padding: 30px 20px 30px 20px;
+        display: block;
+    }
+    .secondtab {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .frameWorkCol{
+        justify-content: center;
+    }
+    .driveInnovationDesc {
+        padding-left: 1.5rem;
+    }
+
+    .counterCard {
+        padding-bottom: 3rem;
+    }
+
+    .counterCard h5 {
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+
+    .counterCard h4 {
+        font-size: 45px;
+        line-height: 50.2px;
+    }
+
     .heroSectionContent h2 {
         font-size: 43px;
         line-height: 51.2px;
@@ -2199,6 +2488,26 @@ body {
 }
 
 @media (max-width : 768px) {
+    .driveInnovationDesc {
+        min-height: 96px;
+        padding-left: 0;
+    }
+
+    .driveInnovation {
+        margin: 0;
+        padding: 30px 20px;
+    }
+
+    .herosection2 h2 {
+        font-size: 35px;
+        line-height: 47px;
+    }
+
+    .herosection2 p {
+        font-size: 18px;
+        line-height: 25.04px;
+    }
+
     .input-container input {
         height: 47px;
     }
@@ -2251,17 +2560,67 @@ body {
 }
 
 @media (max-width : 576px) {
+    .stackCard {
+        min-height: 250px;
+        padding: 25px 5px 35px 5px;
+    }
+
+    .getStartedBtn {
+        font-size: 16px !important;
+        padding: 8px 15px !important;
+    }
+
+    .driveInnovationButton {
+        padding-right: 0;
+        margin-top: 1rem;
+        /* margin-bottom: 1rem; */
+        height: auto;
+    }
+
+    .counterCard {
+        padding-bottom: 3rem;
+    }
+
+    .counterCard h5 {
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+
+    .counterCard h4 {
+        font-size: 40px;
+        line-height: 50.2px;
+    }
+
+    .herosection2 p {
+        font-size: 16px;
+        line-height: 21.04px;
+    }
+
+    .layoutContainer2 {
+        margin-top: 0 !important;
+    }
+
+    .herosection2 h2 {
+        font-family: 'Helvetica';
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
     .custom-accordion-body {
         padding: 12px 12px 12px 12px;
-    }    
+    }
+
     .custom-accordion-header .accordion-button {
         --bs-accordion-btn-icon-width: .9rem;
         padding: 12px 12px !important;
         font-size: 14px;
     }
+
     .navbar-collapse {
         padding: 0.5rem .5rem 1rem .5rem;
     }
+
     .input-container input {
         height: 44px;
     }
@@ -2572,8 +2931,9 @@ body {
     }
 
     .mainHeroSection h2 {
-        font-size: 35px;
+        font-size: 34px;
         margin-bottom: 1rem;
+        line-height: 42px;
     }
 
     .swiper-pagination {

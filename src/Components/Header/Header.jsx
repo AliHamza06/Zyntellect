@@ -3,9 +3,10 @@ import { Button, Link } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
-import ServiceDropdown from './ServiceDropdown';
+import ServiceDropdown from '../Dropdown/ServiceDropdown';
 import Logo from '../../assets/images/logo.png';
 import SideLogo from '../../assets/images/sideLogo.png';
+import IndustriesDropdown from '../Dropdown/IndustriesDropdown';
 
 export default function Header() {
     const navigate = useNavigate();
@@ -95,10 +96,13 @@ export default function Header() {
                                         <ServiceDropdown />
                                     </div>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item" id="industries">
                                     <Link className="nav-link" onClick={() => navigate('/industries')}>
                                         <Button className={location.pathname === '/industries' ? 'activeLink' : 'colorWhite'}>Industries</Button>
                                     </Link>
+                                    <div className='dropdownContent'>
+                                        <IndustriesDropdown/>
+                                    </div>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" onClick={() => navigate('/insights')}>
