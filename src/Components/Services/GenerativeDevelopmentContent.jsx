@@ -7,6 +7,8 @@ import HaveExpertiseIn from './HaveExpertiseIn'
 import ArrayOfIndustries from './ArrayOfIndustries'
 import DevelopmentTechnologyStack from './DevelopmentTechnologyStack'
 import AlliancesPartners from './AlliancesPartners'
+import IntelligencePortfolio from './IntelligencePortfolio'
+import BrandsTrustUs from './BrandsTrustUs'
 
 export default function GenerativeDevelopmentContent() {
     return (
@@ -20,6 +22,7 @@ export default function GenerativeDevelopmentContent() {
             <ArrayOfIndustries />
             <DevelopmentTechnologyStack />
             <AlliancesPartners />
+            <IntelligencePortfolio />
         </>
     )
 }

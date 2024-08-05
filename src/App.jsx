@@ -9,6 +9,7 @@ import Insights from './Pages/Insights';
 import About from './Pages/About';
 import Work from './Pages/Work';
 import GenerativeDevelopment from './Pages/ServicesDrop/GenerativeDevelopment'
+import GenerativeIntegration from './Pages/ServicesDrop/GenerativeIntegration';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
           {/* Services Dropdown */}
           <Route path='/generative-ai-development-company' element={<GenerativeDevelopment/>}/>
+          <Route path='/generative-ai-integration-service' element={<GenerativeIntegration/>}/> 
         </Route>
       </Routes>
     </BrowserRouter>

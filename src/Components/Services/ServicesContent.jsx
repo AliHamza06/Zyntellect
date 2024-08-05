@@ -2,6 +2,7 @@ import React from 'react'
 import Scientists from '../../assets/images/image 35.svg'
 import ExtractInsights from './ExtractInsights'
 import ExpertiseIn from './ExpertiseIn'
+import IntelligencePortfolio from './IntelligencePortfolio'
 export default function ServicesContent() {
   return (
     <>
@@ -65,7 +66,7 @@ export default function ServicesContent() {
             <div className="col-xl-4 col-lg-5">
               <div className="row d-flex justify-content-end">
                 <div className="col-xl-10 col-12">
-                <img src={Scientists} alt="" className='scientistsImg' />
+                  <img src={Scientists} alt="" className='scientistsImg' />
                 </div>
               </div>
             </div>
@@ -78,6 +79,7 @@ export default function ServicesContent() {
       <div className="marginSet">
         <ExpertiseIn />
       </div>
+      
     </>
   )
 }

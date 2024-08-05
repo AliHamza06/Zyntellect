@@ -83,9 +83,9 @@ export default function OurDevelopers() {
                     {insights.map((insight, index) => (
                         <div className="col-xl-6 col-lg-6 col-md-12 mt-sm-5 mt-4" key={index}>
                             <div className="extractCard ourGenerativeCard">
-                                    <img src={insight.img} alt={insight.title} />
-                                    <h4>{insight.title}</h4>
-                           
+                                <img src={insight.img} alt={insight.title} />
+                                <h4>{insight.title}</h4>
+
                                 <p>{insight.description}</p>
                             </div>
                         </div>

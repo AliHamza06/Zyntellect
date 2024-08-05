@@ -90,7 +90,7 @@ export default function Header() {
                                 </li>
                                 <li className="nav-item" id='services'>
                                     <Link className="nav-link" onClick={() => navigate('/services')}>
-                                        <Button className={location.pathname === '/services' ? 'activeLink' : ''}>Services</Button>
+                                        <Button className={location.pathname === '/services' ? 'activeLink' : ''}>Services <i className="bi bi-caret-down-fill caretDown"></i></Button>
                                     </Link>
                                     <div className='dropdownContent'>
                                         <ServiceDropdown />
@@ -98,7 +98,7 @@ export default function Header() {
                                 </li>
                                 <li className="nav-item" id="industries">
                                     <Link className="nav-link" onClick={() => navigate('/industries')}>
-                                        <Button className={location.pathname === '/industries' ? 'activeLink' : 'colorWhite'}>Industries</Button>
+                                        <Button className={location.pathname === '/industries' ? 'activeLink' : 'colorWhite'}>Industries <i className="bi bi-caret-down-fill caretDown"></i></Button>
                                     </Link>
                                     <div className='dropdownContent'>
                                         <IndustriesDropdown/>

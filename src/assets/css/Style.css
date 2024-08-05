@@ -1646,7 +1646,9 @@ p {
     /* min-height: 310px; */
     margin: 0 2rem;
 }
-
+.driveInnovation2{
+    background-image: url(../images/ourBack2.png) !important;
+}
 .driveInnovationDesc {
     min-height: 300px;
     display: flex;
@@ -1734,13 +1736,16 @@ p {
     align-items: center !important;
     padding: 25px 20px 25px 20px;
 }
-.stackCard2 .row{
+
+.stackCard2 .row {
     width: 100%;
 }
-.frameWorkCol{
+
+.frameWorkCol {
     display: flex;
     align-items: center;
 }
+
 .stackCard2 h2 {
     text-align: start;
 }
@@ -1763,6 +1768,226 @@ p {
     color: #000000;
 }
 
+.caretRight {
+    font-size: 10px;
+}
+
+.caretDown {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.fortuneContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.learnMoreBtn2 {
+    font-family: 'DM Sans' !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    background-color: #00245B !important;
+    text-transform: capitalize !important;
+    padding: 9px 20px !important;
+}
+
+.fortuneContent h6 {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.04px;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.fortuneContent h5 {
+    font-family: 'Helvetica';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41.6px;
+    color: #00245B;
+    margin-top: 1rem;
+}
+
+.fortuneContent p {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.04px;
+    text-align: left;
+    color: #737491;
+    margin-top: 2rem;
+}
+
+.graphImgSec {
+    margin-top: 4rem;
+}
+
+.keptDesc {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.04px;
+    color: #000000;
+}
+
+.startConvBtn {
+    width: 100% !important;
+    padding: 14px 20px !important;
+    font-size: 20px !important;
+    margin-top: 1rem !important;
+}
+
+.formInput {
+    padding: 15px 16px !important;
+    border: 1px solid #DFDFEB !important;
+    border-radius: 8px !important;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.04px;
+    color: #9E9FB4 !important;
+    box-shadow: none !important;
+    resize: none !important;
+}
+
+.formInput::placeholder {
+    color: #9E9FB4 !important;
+}
+
+.checkBoxGroup input {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #DFDFEB !important;
+    box-shadow: none !important;
+}
+
+.checkBoxGroup input:checked {
+    background-color: #00245B !important;
+}
+
+.checkBoxGroup label {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.04px;
+    color: #9E9FB4 !important;
+    margin-top: 2px;
+}
+
+.formSection {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.checkBoxGroup .form-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.accordionHeading button {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.04px;
+    color: #00245B;
+    background: none !important;
+    box-shadow: none !important;
+    gap: 15px;
+}
+
+.accordionHeading .accordion-button::after {
+    background-image: url(../images/add.png);
+}
+
+.accordionHeading .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus.png);
+}
+
+.accordionBdycontent ol {
+    padding-left: 1rem !important;
+}
+
+.accordionBdycontent ul {
+    padding-left: 1.2rem;
+}
+
+.accordionBdycontent p {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.7px;
+    color: #737491;
+    margin-bottom: 12px;
+}
+.accordionBdycontent li {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.7px;
+    color: #737491;
+    margin-bottom: 12px;
+}
+.accordionBdycontent li strong {
+    color: #00245B;
+}
+
+.accordionBdycontent {
+    padding-top: 10px;
+}
+
+.accordionBdycontent a {
+    text-decoration: none;
+    color: #2B53EF;
+}
+
+.accordionItem2 {
+    margin-bottom: 1rem;
+    border: 1px solid #DFDFEB !important;
+    border-radius: 8px !important;
+}
+
+.exploreCard {
+    min-height: 150px !important;
+    align-items: start !important;
+}
+
+.exploreCard a {
+    text-decoration: none !important;
+}
+
+.insighCard h6 {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.7px;
+    color: #00245B;
+    margin-top: 1rem;
+    letter-spacing: .5px;
+}
+
+.insighCard p {
+    font-size: 18px !important;
+    margin-top: 1rem !important;
+}
+.showAllInsight{
+    margin-top: 4rem;
+}
+.showAllInsight button{
+    font-size: 20px !important;
+    padding: 14px 20px !important;
+}
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -1777,10 +2002,14 @@ p {
 }
 
 @media (max-width: 1440px) {
+    .insighCard{
+        min-height: 680px !important;
+    }
     .modalcontent {
         padding: 17px 14px;
         font-size: 17px;
     }
+
     .driveInnovationDesc p {
         font-size: 20px;
     }
@@ -1914,6 +2143,24 @@ p {
 }
 
 @media (max-width : 1400px) {
+    .fortuneContent {
+        height: auto;
+    }
+
+    .fortuneContent h5 {
+        font-size: 26px;
+        line-height: 39.6px;
+    }
+
+    .fortuneContent p {
+        font-size: 19px;
+        margin-top: 1rem;
+    }
+
+    .caretRight {
+        font-size: 9px;
+    }
+
     .tab .tablinks {
         padding: 12px 14px;
         font-size: 14px;
@@ -1990,9 +2237,28 @@ p {
 }
 
 @media (max-width : 1200px) {
+    .insighCard{
+        min-height: 720px !important;
+    }
+    .fortuneContent p {
+        font-size: 17px;
+    }
+
+    .fortuneContent h5 {
+        font-size: 24px;
+        line-height: 34.6px;
+        margin-top: .5rem;
+        margin-bottom: 0;
+    }
+
+    .fortuneContent h6 {
+        font-size: 18px;
+    }
+
     .secondtab {
         gap: 20px;
     }
+
     .driveInnovationDesc p {
         font-size: 18px;
     }
@@ -2296,17 +2562,21 @@ p {
     .stackCard2 .row {
         width: unset;
     }
+
     .stackCard2 {
         padding: 30px 20px 30px 20px;
         display: block;
     }
+
     .secondtab {
         justify-content: center;
         margin-top: 2rem;
     }
-    .frameWorkCol{
+
+    .frameWorkCol {
         justify-content: center;
     }
+
     .driveInnovationDesc {
         padding-left: 1.5rem;
     }
@@ -2488,6 +2758,13 @@ p {
 }
 
 @media (max-width : 768px) {
+    .insighCard{
+        min-height: auto !important;
+    }
+    .checkBoxGroup label {
+        font-size: 19px;
+    }
+
     .driveInnovationDesc {
         min-height: 96px;
         padding-left: 0;
@@ -2560,6 +2837,66 @@ p {
 }
 
 @media (max-width : 576px) {
+    .showAllInsight {
+        margin-top: 3rem;
+    }
+    .showAllInsight button {
+        font-size: 18px !important;
+        padding: 12px 20px !important;
+    }
+    .insighCard h6 {
+        font-size: 18px;
+        line-height: 25.7px;
+    }
+    .insighCard p {
+        font-size: 16px !important;
+        margin-top: 1rem !important;
+    }
+    .accordionHeading button {
+        font-size: 18px;
+        line-height: 24.04px;
+        gap: 12px;
+        padding: 10px 14px;
+    }
+
+    .accordionBdycontent {
+        padding: 10px 14px;
+    }
+
+    .checkBoxGroup input {
+        width: 22px;
+        height: 22px;
+    }
+
+    .checkBoxGroup label {
+        font-size: 16px;
+        line-height: 21.04px;
+    }
+
+    .formInput {
+        padding: 10px 14px !important;
+        font-size: 16px;
+    }
+
+    .learnMoreBtn2 {
+        padding: 8px 20px !important;
+    }
+
+    .fortuneContent p {
+        font-size: 16px;
+        line-height: 21.04px;
+        margin-top: .5rem;
+    }
+
+    .fortuneContent h5 {
+        font-size: 20px;
+        line-height: 28.6px;
+    }
+
+    .fortuneContent h6 {
+        font-size: 16px;
+    }
+
     .stackCard {
         min-height: 250px;
         padding: 25px 5px 35px 5px;
@@ -2615,6 +2952,11 @@ p {
         --bs-accordion-btn-icon-width: .9rem;
         padding: 12px 12px !important;
         font-size: 14px;
+    }
+
+    .startConvBtn {
+        padding: 12px 20px !important;
+        font-size: 18px !important;
     }
 
     .navbar-collapse {
