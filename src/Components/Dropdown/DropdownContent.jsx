@@ -188,7 +188,7 @@ export const serviceData = {
   Generative: [
     { imgSrc: Generative, linkText: 'Generative AI Development', linkTo: '/generative-ai-development-company' },
     { imgSrc: GenerativeAi, linkText: 'Generative AI Integration Services', linkTo: '/generative-ai-integration-service' },
-    { imgSrc: GenerativeConsulting, linkText: 'Generative AI Consulting Company', linkTo: '#' },
+    { imgSrc: GenerativeConsulting, linkText: 'Generative AI Consulting Company', linkTo: '/generative-ai-consulting-company' },
     { imgSrc: HireGenerative, linkText: 'Hire Generative AI Engineers', linkTo: '#' },
     { imgSrc: AgentDevelopment, linkText: 'AI Agent Development', linkTo: '#' },
     { imgSrc: CopilotDevelopment, linkText: 'AI Copilot Development', linkTo: '#' },

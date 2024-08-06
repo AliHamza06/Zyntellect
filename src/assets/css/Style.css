@@ -1988,6 +1988,15 @@ p {
     font-size: 20px !important;
     padding: 14px 20px !important;
 }
+.CaterCard{
+    min-height: 412px;
+}
+.contactUsCard{
+    min-height: 330px;
+}
+.contactUsCard object{
+    width: 60px;
+}
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -3133,14 +3142,18 @@ p {
         font-size: 20px;
         margin-top: 10px;
     }
-
+    .ourGenerativeCard img {
+        width: 50px !important;
+    }
     /* .extractCard img {
         height: 55px;
     } */
 
     .extractCard {
-        min-height: 346px;
+        /* min-height: 346px; */
         gap: 7px;
+        min-height: auto !important;
+        padding: 25px 20px 25px 20px;
     }
 
     .extractCard p {

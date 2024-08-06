@@ -1,10 +1,7 @@
 import React from 'react';
-import ListImg1 from '../../assets/images/listImg1.svg';
-import ListImg2 from '../../assets/images/ListImg2.svg';
-import ListImg3 from '../../assets/images/ListImg3.svg';
-import ListImg4 from '../../assets/images/ListImg4.svg';
-import ListImg5 from '../../assets/images/ListImg5.svg';
-import ListImg6 from '../../assets/images/ListImg6.svg';
+import ListImg1 from '../../assets/images/AI-in-Asset.png';
+import ListImg2 from '../../assets/images/AI-in-supply.svg';
+import ListImg3 from '../../assets/images/AI-in-Healthcare.svg';
 import { Button, IconButton } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';

@@ -1,43 +1,55 @@
 import React from 'react'
-import Machine from '../../../assets/images/icon/our1.svg';
-import DataAnalysis from '../../../assets/images/icon/our2.svg';
-import DomainSpecific from '../../../assets/images/icon/our3.svg';
-import AISolutions from '../../../assets/images/icon/our4.svg';
-import AIIntegration from '../../../assets/images/icon/our5.svg';
-import UpgradeMaintenance from '../../../assets/images/icon/our6.svg';
+import Machine from '../../../assets/images/icon/benefit1.svg';
+import DataAnalysis from '../../../assets/images/icon/benefit2.svg';
+import DomainSpecific from '../../../assets/images/icon/benefit3.svg';
+import AISolutions from '../../../assets/images/icon/benefit4.svg';
+import AIIntegration from '../../../assets/images/icon/benefit5.svg';
+import UpgradeMaintenance from '../../../assets/images/icon/benefit6.svg';
+import CreativeDesign from '../../../assets/images/icon/benefit7.svg';
+import WorkflowAutomation from '../../../assets/images/icon/benefit8.svg';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 
 const ourGeneratives = [
     {
-        title: "Generative AI Consulting",
-        description: "We work closely with your team to develop a customized generative AI adoption strategy that aligns with your objectives. Our consultants bring deep technical knowledge of generative AI models and technologies to the table, ensuring that you implement the most suitable solution for your specific use case.",
+        title: "Customer Support Automation",
+        description: "Provide instant and accurate responses to customer queries, reducing the workload on support teams, improving customer satisfaction and saving customer support costs.",
         img: Machine,
     },
     {
-        title: "Data Analysis",
-        description: "Our data analysis service is designed to help businesses unlock valuable insights from their data. Whether you have structured data sets or unstructured text, our expert data analysts can extract, process, and analyze this information to uncover hidden patterns and provide actionable recommendations.",
+        title: "Content Generation",
+        description: "Automate creating engaging and personalized content such as blog articles, social media posts, and product descriptions, saving time and effort while maintaining quality and consistency.",
         img: DataAnalysis,
     },
     {
-        title: "Domain-specific Generative AI Model Development",
-        description: "We build domain-specific generative AI models to ensure you can harness the full potential of AI in a way that is relevant and impactful to your business. Our process begins with a comprehensive assessment of your industry and business objectives, followed by the careful selection of a foundational model. We then fine-tune it by integrating it with your proprietary data and rigorously test it to ensure it meets your business requirements.",
+        title: "Data Analysis and Insights",
+        description: "Utilize generative AI to analyze large datasets and extract valuable insights to make data-driven decisions more efficiently and effectively.",
         img: DomainSpecific,
     },
     {
-        title: "Generative AI Solutions Development",
-        description: "Whether you want a chatbot, an AI copilot, an AI agent, a recommendation system or a predictive analytics tool, we have you covered. We build innovative generative AI solutions using foundational models as building blocks. These models, such as GPT, Llama and PaLM, Gemini, Mistral and Claude, serve as the cornerstone for creating intelligent, creative, and adaptable generative AI systems that offer a transformative approach to solving complex challenges.",
+        title: "Virtual Training and Simulations",
+        description: "Develop interactive training modules and simulations using generative AI, allowing employees to enhance their skills and knowledge in a virtual environment, leading to improved performance and reduced training costs.",
         img: AISolutions,
     },
     {
-        title: "Generative AI Integration",
-        description: "We seamlessly incorporate generative AI solutions into your existing tech infrastructure, streamlining your internal workflows and customer-facing systems. We recognize the significance of a smooth transition and work diligently to ensure our integration process causes minimal disruption to your ongoing operations, empowering your organization to thrive in the rapidly evolving tech landscape.",
+        title: "Natural Language Processing (NLP)",
+        description: "Automate diverse NLP-based tasks like sentiment analysis, summarizing and language translation, driving efficiency and productivity within your organization.",
         img: AIIntegration,
     },
     {
-        title: "Upgrade and Maintenance",
-        description: "Your success is our priority, which is why we provide post-deployment maintenance and upgrade services, keeping in mind the dynamic nature of technology and your evolving business needs. With regular maintenance and timely upgrades, we ensure that your generative AI solutions continue to operate smoothly, delivering consistent value and innovation and helping you excel in the competitive business landscape.",
+        title: "Fraud Detection and Prevention",
+        description: "Utilize generative AI to analyze patterns and detect anomalies in financial transactions, helping enterprises proactively identify and prevent fraudulent activities, safeguarding their assets and maintaining trust.",
         img: UpgradeMaintenance,
+    },
+    {
+        title: "Creative Design and Art",
+        description: "Explore generative AI in the field of creative design, allowing businesses to generate unique visuals, artwork, and graphic designs, opening up new possibilities for branding and marketing campaigns.",
+        img: CreativeDesign,
+    },
+    {
+        title: "Workflow Automation",
+        description: "Integrate generative AI into company workflows to automate repetitive tasks, streamline processes, and increase operational efficiency, freeing up employees to focus on more strategic and complex activities.",
+        img: WorkflowAutomation,
     },
 ];
 export default function BenefitYourBusiness() {
@@ -59,23 +71,6 @@ export default function BenefitYourBusiness() {
                             </div>
                         </div>
                     ))}
-                </div>
-            </div>
-            <div className="marginSet">
-                <div className="driveInnovation">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
-                        <div className="col-xl-4 col-lg-4 col-md-7">
-                            <div className='driveInnovationDesc'>
-                                <p>Drive innovation in your business with LeewayHertz's expert generative AI development services.</p>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-5">
-                            <div className="driveInnovationButton">
-                                <Button variant='contained' className='getStartedBtn'>Get Started Now</Button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </>
