@@ -742,8 +742,8 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 26.04px;
-    text-align: center;
-    color: #9E9FB4;
+    text-align: center !important;
+    color: #9E9FB4 ;
     margin-top: 12px;
 }
 
@@ -1996,6 +1996,9 @@ p {
 }
 .contactUsCard object{
     width: 60px;
+}
+.VerticalsCard{
+    min-height: 440px;
 }
 @media (min-width: 1440px) {
     .send-button {

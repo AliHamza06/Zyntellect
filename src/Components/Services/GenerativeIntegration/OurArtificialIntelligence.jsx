@@ -72,7 +72,7 @@ export default function OurArtificialIntelligence() {
                 <div className="col-lg-6 col-md-12 mt-sm-5 mt-4">
                     <div className="fortuneContent">
                         <h6>Data Analysis</h6>
-                        <h5>Geospatial Data Analysisg</h5>
+                        <h5>Geospatial Data Analysis</h5>
                         <p>
                             A US-based geospatial intelligence and analytics firm sought LeewayHertz’s expertise to tackle a complex dataset with limited identifiers, aiming to derive valuable insights, identify patterns, spot unusual movements, and ensure data security. Our solution involved deploying a sophisticated data analysis pipeline, encompassing timestamp conversion, geocoding for contextual enrichment, clustering for pattern recognition, correlation analysis, and anomaly detection. Beyond unveiling intricate location-based patterns, our approach prioritized robust data security, resulting in the delivery of actionable intelligence that precisely met our client’s objectives.
                         </p>
