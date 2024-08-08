@@ -11,6 +11,7 @@ import Work from './Pages/Work';
 import GenerativeDevelopment from './Pages/ServicesDrop/GenerativeDevelopment'
 import GenerativeIntegration from './Pages/ServicesDrop/GenerativeIntegration';
 import GenerativeConsulting from './Pages/ServicesDrop/GenerativeConsulting';
+import GenerativeEngineers from './Pages/ServicesDrop/GenerativeEngineers';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           {/* Services Dropdown */}
           <Route path='/generative-ai-development-company' element={<GenerativeDevelopment/>}/>
           <Route path='/generative-ai-integration-service' element={<GenerativeIntegration/>}/>
-          <Route path='/generative-ai-consulting-company' element={<GenerativeConsulting/>}/>  
+          <Route path='/generative-ai-consulting-company' element={<GenerativeConsulting/>}/> 
+          <Route path='/hire-generative-ai-engineers' element={<GenerativeEngineers/>}/>  
         </Route>
       </Routes>
     </BrowserRouter>

@@ -146,7 +146,8 @@ body {
     background: #ffffff;
     z-index: 999;
     transform: translateY(1px);
-    box-shadow: 0px 0px 10px -3px #00000021;
+    /* box-shadow: 0px 0px 10px -3px #00000021; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #services:hover .dropdownContent {
@@ -205,9 +206,16 @@ body {
 .tabcontent.active {
     display: block;
 }
+.dropCard{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+}
 .dropCard img {
     width: 100%;
+}
+.dropCard:hover{
+    transform: scale(1.03);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .dropCard {
@@ -1649,6 +1657,9 @@ p {
 .driveInnovation2{
     background-image: url(../images/ourBack2.png) !important;
 }
+.driveInnovation3{
+    background-image: url(../images/ourBack3.png) !important;
+}
 .driveInnovationDesc {
     min-height: 300px;
     display: flex;
@@ -2000,6 +2011,9 @@ p {
 .VerticalsCard{
     min-height: 440px;
 }
+.insighCard2{
+    min-height: 640px !important;
+}
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -2014,8 +2028,12 @@ p {
 }
 
 @media (max-width: 1440px) {
+
     .insighCard{
         min-height: 680px !important;
+    }
+    .insighCard2{
+        min-height: 600px !important;
     }
     .modalcontent {
         padding: 17px 14px;

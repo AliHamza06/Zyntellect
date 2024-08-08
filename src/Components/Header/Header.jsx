@@ -53,6 +53,8 @@ export default function Header() {
 
     useEffect(() => {
         setNavbarVisible(false); // Close navbar when navigating to a new page
+        // Scroll to the top of the page when navigating to a new location
+        window.scrollTo(0, 0);
     }, [location.pathname]);
 
     return (
