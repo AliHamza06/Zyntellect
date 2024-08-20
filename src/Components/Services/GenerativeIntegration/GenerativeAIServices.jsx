@@ -49,7 +49,7 @@ export default function GenerativeAIServices() {
                     ))}
                 </div>
             </div>
-            <div className="marginSet">
+            {/* <div className="marginSet">
                 <div className="driveInnovation driveInnovation2">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
@@ -65,7 +65,7 @@ export default function GenerativeAIServices() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

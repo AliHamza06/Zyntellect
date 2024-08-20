@@ -12,6 +12,11 @@ import GenerativeDevelopment from './Pages/ServicesDrop/GenerativeDevelopment'
 import GenerativeIntegration from './Pages/ServicesDrop/GenerativeIntegration';
 import GenerativeConsulting from './Pages/ServicesDrop/GenerativeConsulting';
 import GenerativeEngineers from './Pages/ServicesDrop/GenerativeEngineers';
+import GenerativeAgent from './Pages/ServicesDrop/GenerativeAgent';
+import GenerativeCopilot from './Pages/ServicesDrop/GenerativeCopilot';
+import GenerativeMarketing from './Pages/ServicesDrop/GenerativeMarketing';
+import HirePromptEngineers from './Pages/ServicesDrop/HirePromptEngineers';
+import AdaptiveDevelopmentCompany from './Pages/ServicesDrop/AdaptiveDevelopmentCompany';
 
 function App() {
   return (
@@ -29,7 +34,12 @@ function App() {
           <Route path='/generative-ai-development-company' element={<GenerativeDevelopment/>}/>
           <Route path='/generative-ai-integration-service' element={<GenerativeIntegration/>}/>
           <Route path='/generative-ai-consulting-company' element={<GenerativeConsulting/>}/> 
-          <Route path='/hire-generative-ai-engineers' element={<GenerativeEngineers/>}/>  
+          <Route path='/hire-generative-ai-engineers' element={<GenerativeEngineers/>}/>
+          <Route path='/ai-agent-development-company' element={<GenerativeAgent/>}/>
+          <Route path='/ai-copilot-development-company' element={<GenerativeCopilot/>}/>
+          <Route path='/ai-marketing-agent-development' element={<GenerativeMarketing/>}/>  
+          <Route path='/hire-prompt-engineers' element={<HirePromptEngineers/>}/>
+          <Route path='/adaptive-ai-development-company' element={<AdaptiveDevelopmentCompany/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -17,14 +17,11 @@ export default function GenerativeDevelopment() {
             <div className='manageWidth layoutContainer2'>
                 <GenerativeHeroSection />
             </div>
-            <div className='marginSet'>
-                <CompanyLogo />
-            </div>
             <div className="manageWidth">
                 <GenerativeDevelopmentContent />
             </div>
             <BrandsTrustUs />
-            <AsMentioned />
+            <AsMentioned/>
             <div className="manageWidth">
                 <OurEngagement />
                 <GetStarted />

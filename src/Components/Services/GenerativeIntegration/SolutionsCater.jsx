@@ -87,7 +87,7 @@ export default function SolutionsCater() {
                 <div className="row mt-lg-4 mt-sm-4 mt-1">
                     {ourGeneratives.map((ourGenerative, index) => (
                         <div className="col-xl-4 col-lg-6 col-md-6 mt-sm-5 mt-4" key={index}>
-                            <Link to="#" style={{ textDecoration : 'none' }}>
+                            <Link to="#" style={{ textDecoration: 'none' }}>
                                 <div className="extractCard ourGenerativeCard CaterCard">
                                     <img src={ourGenerative.img} alt={ourGenerative.title} />
                                     <h4>{ourGenerative.title}</h4>

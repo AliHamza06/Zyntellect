@@ -15,9 +15,6 @@ export default function GenerativeConsulting() {
             <div className='manageWidth layoutContainer2'>
                 <GenerativeConsultingHero/>
             </div>
-            <div className='marginSet'>
-                <CompanyLogo/>
-            </div>
             <div className="manageWidth">
                 <GenerativeConsultingContent/>
             </div>

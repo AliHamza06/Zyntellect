@@ -10,7 +10,7 @@ import EngineersDevelopment from '../../assets/images/Dropdown/Hire-Prompt-Engin
 import AdaptiveAI from '../../assets/images/Dropdown/Adaptive-AI.svg';
 import ChatGPTDevelopers from '../../assets/images/Dropdown/ChatGPT-Developers.svg';
 import StableDiffusion from '../../assets/images/Dropdown/Stable-diffusion-developers.png';
-import ChatGPTIntegration from '../../assets/images/Dropdown/ChatGPT-Integration.png';
+import ChatGPTIntegration from '../../assets/images/Dropdown/marketing1.svg';
 import LargeLanguage from '../../assets/images/Dropdown/Large-Language.svg';
 
 // Artificial
@@ -190,13 +190,13 @@ export const serviceData = {
     { imgSrc: GenerativeAi, linkText: 'Generative AI Integration Services', linkTo: '/generative-ai-integration-service' },
     { imgSrc: GenerativeConsulting, linkText: 'Generative AI Consulting Company', linkTo: '/generative-ai-consulting-company' },
     { imgSrc: HireGenerative, linkText: 'Hire Generative AI Engineers', linkTo: '/hire-generative-ai-engineers' },
-    { imgSrc: AgentDevelopment, linkText: 'AI Agent Development', linkTo: '#' },
-    { imgSrc: CopilotDevelopment, linkText: 'AI Copilot Development', linkTo: '#' },
-    { imgSrc: EngineersDevelopment, linkText: 'Hire Prompt Engineers', linkTo: '#' },
-    { imgSrc: AdaptiveAI, linkText: 'Adaptive AI Development Company', linkTo: '#' },
+    { imgSrc: AgentDevelopment, linkText: 'AI Agent Development', linkTo: '/ai-agent-development-company' },
+    { imgSrc: CopilotDevelopment, linkText: 'AI Copilot Development', linkTo: '/ai-copilot-development-company/' },
+    { imgSrc: ChatGPTIntegration, linkText: 'AI Marketing Agent Development', linkTo: '/ai-marketing-agent-development' },
+    { imgSrc: EngineersDevelopment, linkText: 'Hire Prompt Engineers', linkTo: '/hire-prompt-engineers' },
+    { imgSrc: AdaptiveAI, linkText: 'Adaptive AI Development Company', linkTo: '/adaptive-ai-development-company' },
     { imgSrc: ChatGPTDevelopers, linkText: 'ChatGPT Developers', linkTo: '#' },
     { imgSrc: StableDiffusion, linkText: 'Stable Diffusion Developers', linkTo: '#' },
-    { imgSrc: ChatGPTIntegration, linkText: 'ChatGPT Integration Service', linkTo: '#' },
     { imgSrc: LargeLanguage, linkText: 'Large Language Model Development', linkTo: '#' },
   ]
 };

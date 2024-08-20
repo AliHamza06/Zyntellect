@@ -15,9 +15,6 @@ export default function GenerativeIntegration() {
             <div className='manageWidth layoutContainer2'>
                 <GenerativeIntegrationHero />
             </div>
-            <div className='marginSet'>
-                <CompanyLogo />
-            </div>
             <div className='manageWidth'>
                 <GenerativeIntegrationContent />
             </div>

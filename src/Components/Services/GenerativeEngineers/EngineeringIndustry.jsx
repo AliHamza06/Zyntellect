@@ -87,7 +87,7 @@ export default function EngineeringIndustry() {
                 <div className="row mt-lg-4 mt-sm-4 mt-1">
                     {ourGeneratives.map((ourGenerative, index) => (
                         <div className="col-xl-4 col-lg-6 col-md-6 mt-sm-5 mt-4" key={index}>
-                            <Link to="#" style={{ textDecoration : 'none' }}>
+                            <Link to="#" style={{ textDecoration: 'none' }}>
                                 <div className="extractCard ourGenerativeCard CaterCard">
                                     <img src={ourGenerative.img} alt={ourGenerative.title} />
                                     <h4>{ourGenerative.title}</h4>
@@ -97,23 +97,23 @@ export default function EngineeringIndustry() {
                         </div>
                     ))}
                 </div>
-                <div className="marginSet">
-                <div className="driveInnovation driveInnovation3">
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
-                        <div className="col-xl-4 col-lg-4 col-md-7">
-                            <div className='driveInnovationDesc'>
-                                <p>Enhance your team with skilled Generative AI engineers from LeewayHertz. Elevate your projects and drive efficiency with our specialized AI talent.</p>
+                {/* <div className="marginSet">
+                    <div className="driveInnovation driveInnovation3">
+                        <div className="row">
+                            <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
+                            <div className="col-xl-4 col-lg-4 col-md-7">
+                                <div className='driveInnovationDesc'>
+                                    <p>Enhance your team with skilled Generative AI engineers from LeewayHertz. Elevate your projects and drive efficiency with our specialized AI talent.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-5">
-                            <div className="driveInnovationButton">
-                                <Button variant='contained' className='getStartedBtn'>Get Started Now</Button>
+                            <div className="col-xl-4 col-lg-4 col-md-5">
+                                <div className="driveInnovationButton">
+                                    <Button variant='contained' className='getStartedBtn'>Get Started Now</Button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> */}
             </div>
         </>
     )

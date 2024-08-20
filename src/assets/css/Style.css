@@ -32,12 +32,18 @@ body {
     color: #00245B;
     padding: 10px 20px !important;
     text-transform: capitalize !important;
+    height: 100%;
 }
 
 .listItem {
     padding-right: 4rem;
     justify-content: space-between;
     gap: 17px;
+    align-items: center;
+}
+
+.listItem li {
+    height: 100% !important;
 }
 
 .contactBtn {
@@ -57,6 +63,7 @@ body {
 .headerLogo {
     width: 100%;
     cursor: pointer;
+    height: 74px;
 }
 
 .navbar-brand {
@@ -66,6 +73,7 @@ body {
 
 .listItem a {
     padding: 0 !important;
+    height: 100%;
 }
 
 .activeLink {
@@ -206,14 +214,17 @@ body {
 .tabcontent.active {
     display: block;
 }
-.dropCard{
+
+.dropCard {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
+
 .dropCard img {
     width: 100%;
 }
-.dropCard:hover{
+
+.dropCard:hover {
     transform: scale(1.03);
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
@@ -751,7 +762,7 @@ body {
     font-weight: 400;
     line-height: 26.04px;
     text-align: center !important;
-    color: #9E9FB4 ;
+    color: #9E9FB4;
     margin-top: 12px;
 }
 
@@ -1008,7 +1019,7 @@ body {
 
 /* services css */
 .layoutContainer2 {
-    margin-top: 100px !important;
+    margin-top: 115px !important;
 }
 
 .mainHeroSection {
@@ -1654,14 +1665,21 @@ p {
     /* min-height: 310px; */
     margin: 0 2rem;
 }
-.driveInnovation2{
+
+.driveInnovation2 {
     background-image: url(../images/ourBack2.png) !important;
 }
-.driveInnovation3{
+
+.driveInnovation3 {
     background-image: url(../images/ourBack3.png) !important;
 }
+
+.driveInnovation4 {
+    background-image: url(../images/ourBack4.png) !important;
+}
+
 .driveInnovationDesc {
-    min-height: 300px;
+    min-height: 290px;
     display: flex;
     align-items: center;
 }
@@ -1785,8 +1803,11 @@ p {
 
 .caretDown {
     font-size: 12px;
-    margin-left: 5px;
-    margin-top: 5px;
+    /* margin-left: 5px;
+    margin-top: 5px; */
+    position: relative;
+    left: 5px;
+    top: 3px;
 }
 
 .fortuneContent {
@@ -1942,6 +1963,7 @@ p {
     color: #737491;
     margin-bottom: 12px;
 }
+
 .accordionBdycontent li {
     font-family: 'DM Sans';
     font-size: 16px;
@@ -1950,6 +1972,7 @@ p {
     color: #737491;
     margin-bottom: 12px;
 }
+
 .accordionBdycontent li strong {
     color: #00245B;
 }
@@ -1992,28 +2015,123 @@ p {
     font-size: 18px !important;
     margin-top: 1rem !important;
 }
-.showAllInsight{
+
+.showAllInsight {
     margin-top: 4rem;
 }
-.showAllInsight button{
+
+.showAllInsight button {
     font-size: 20px !important;
     padding: 14px 20px !important;
 }
-.CaterCard{
+
+.CaterCard {
     min-height: 412px;
 }
-.contactUsCard{
+
+.contactUsCard {
     min-height: 330px;
 }
-.contactUsCard object{
+
+.contactUsCard object {
     width: 60px;
 }
-.VerticalsCard{
+
+.VerticalsCard {
     min-height: 440px;
 }
-.insighCard2{
+
+.insighCard2 {
     min-height: 640px !important;
 }
+
+.extractCardUl {
+    padding-left: 1.2rem;
+}
+
+.extractCard li {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.7px;
+    color: #737491;
+    margin-top: 5px;
+}
+
+.fortuneContent a {
+    width: max-content;
+}
+
+.ourGenerativeLiCard {
+    min-height: 400px;
+}
+
+.ourDigitalCard {
+    min-height: 485px;
+}
+
+.processCard {
+    min-height: 500px;
+}
+.relatedInsightCard{
+    min-height: 350px !important;
+}
+.gatheringCard{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.gatheringCard img{
+    margin-top: 1.2rem;
+}
+.gatheringCard p{
+    margin-top: 1rem;
+}
+.wide-array-industries {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.industry-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 40px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+}
+
+.industry-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.industry-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    fill: #007BFF;
+    transition: fill 0.3s ease;
+}
+
+.industry-card:hover .industry-icon {
+    fill: #0056b3;
+}
+
+.industry-title {
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.7px;
+    color: #00245B;
+    text-align: center !important;
+}
+
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -2028,13 +2146,18 @@ p {
 }
 
 @media (max-width: 1440px) {
+    .ourGenerativeLiCard {
+        min-height: 450px;
+    }
 
-    .insighCard{
+    .insighCard {
         min-height: 680px !important;
     }
-    .insighCard2{
+
+    .insighCard2 {
         min-height: 600px !important;
     }
+
     .modalcontent {
         padding: 17px 14px;
         font-size: 17px;
@@ -2137,11 +2260,15 @@ p {
     .mainHeader {
         background: none !important;
         position: unset !important;
-        padding: 0 0px;
+        /* padding: 0 0px; */
+    }
+
+    .headerLogo {
+        height: 79px;
     }
 
     .heroSectionContent {
-        padding-left: 53px;
+        padding-left: 38px;
     }
 
     .contactButton {
@@ -2169,6 +2296,9 @@ p {
 
     .cardFooter h4 {
         font-size: 18px;
+    }
+    .relatedInsightCard{
+        min-height: 510px !important;
     }
 }
 
@@ -2198,6 +2328,10 @@ p {
 }
 
 @media (max-width : 1300px) {
+    .headerLogo {
+        height: 73px;
+    }
+
     .dropCard a {
         font-size: 13px;
         line-height: 18px;
@@ -2267,9 +2401,24 @@ p {
 }
 
 @media (max-width : 1200px) {
-    .insighCard{
+    .gatheringCard{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .gatheringCard img{
+        margin-top: 0;
+    }
+    .gatheringCard p{
+        margin-top: 10px;
+    }
+    .ourGenerativeLiCard {
+        min-height: 400px;
+    }
+
+    .insighCard {
         min-height: 720px !important;
     }
+
     .fortuneContent p {
         font-size: 17px;
     }
@@ -2503,7 +2652,7 @@ p {
         z-index: 990;
         transform: translateX(-100%);
         transition: transform 0.3s ease;
-        padding: 0.5rem 1rem 1rem 1rem;
+        padding: 0.5rem .7rem 1rem 1rem;
         overflow-y: scroll;
         padding-bottom: 21px;
         box-shadow: 0 4px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
@@ -2560,6 +2709,9 @@ p {
 
     .heroSectionContent {
         max-width: 953px;
+    }
+    .relatedInsightCard{
+        min-height: 510px !important;
     }
 }
 
@@ -2788,9 +2940,10 @@ p {
 }
 
 @media (max-width : 768px) {
-    .insighCard{
+    .insighCard {
         min-height: auto !important;
     }
+
     .checkBoxGroup label {
         font-size: 19px;
     }
@@ -2867,21 +3020,43 @@ p {
 }
 
 @media (max-width : 576px) {
+    .industry-icon {
+        width: 65px;
+        height: 65px;
+    }
+    .extractCard li {
+        font-size: 15px;
+    }
+    .industry-title {
+        font-size: 20px;
+    }    
+    .headerLogo {
+        height: 52px;
+    }
+
+    .extractCardUl {
+        margin-bottom: 0;
+    }
+
     .showAllInsight {
         margin-top: 3rem;
     }
+
     .showAllInsight button {
         font-size: 18px !important;
         padding: 12px 20px !important;
     }
+
     .insighCard h6 {
         font-size: 18px;
         line-height: 25.7px;
     }
+
     .insighCard p {
         font-size: 16px !important;
         margin-top: 1rem !important;
     }
+
     .accordionHeading button {
         font-size: 18px;
         line-height: 24.04px;
@@ -3163,9 +3338,11 @@ p {
         font-size: 20px;
         margin-top: 10px;
     }
+
     .ourGenerativeCard img {
         width: 50px !important;
     }
+
     /* .extractCard img {
         height: 55px;
     } */
@@ -3368,7 +3545,7 @@ p {
     }
 
     .headerLogo {
-        width: 77%;
+        width: 100%;
     }
 
     .edgeContent p {

@@ -117,7 +117,7 @@ export default function EngineeringAIServices() {
                     ))}
                 </div>
             </div>
-            <div className="marginSet">
+            {/* <div className="marginSet">
                 <div className="driveInnovation driveInnovation3">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
@@ -133,7 +133,7 @@ export default function EngineeringAIServices() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

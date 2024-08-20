@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Machine from '../../assets/images/icon/our7.svg';
 import DataAnalysis from '../../assets/images/icon/our8.svg';
 import DomainSpecific from '../../assets/images/icon/our9.svg';
@@ -9,35 +9,46 @@ import IncreasedAutomation from '../../assets/images/icon/our13.svg';
 import IncreasedProductivity from '../../assets/images/icon/our14.svg';
 import EnhancedCreativity from '../../assets/images/icon/our15.svg';
 import CostOptimization from '../../assets/images/icon/our16.svg';
-import ProcessOur from '../../assets/images/Process-Our-Engineers-Follow-cropped.svg'
-import ProcessOur2 from '../../assets/images/Developers-Follow.svg'
-
+import ProcessOur from '../../assets/images/Process-Our-Engineers-Follow-cropped.svg';
+import ProcessOur2 from '../../assets/images/Developers-Follow.svg';
 import { Link } from 'react-router-dom';
 
 const explores = [
     {
         title: "AI Development",
         description: "Explore –>",
+        img: Machine,
+        to: "#"
     },
     {
         title: "AI Consulting",
         description: "Explore –>",
+        img: DataAnalysis,
+        to: "#"
     },
     {
         title: "Generative AI Consulting",
         description: "Explore –>",
+        img: DomainSpecific,
+        to: "#"
     },
     {
         title: "Enterprise AI Development",
         description: "Explore –>",
+        img: AISolutions,
+        to: "#"
     },
     {
         title: "Machine Learning Development",
         description: "Explore –>",
+        img: AIIntegration,
+        to: "#"
     },
     {
         title: "ChatGPT Developers",
         description: "Explore –>",
+        img: UpgradeMaintenance,
+        to: "#"
     },
 ];
 
@@ -54,13 +65,16 @@ export default function ExploreOurServices() {
                     {explores.map((explore, index) => (
                         <div className="col-xl-4 col-lg-4 col-md-6 mt-sm-5 mt-4" key={index}>
                             <div className="extractCard exploreCard">
-                                <Link to="#"><h4>{explore.title}</h4></Link>
-                                <Link to="#"><p>{explore.description}</p></Link>
+                                <Link to={explore.to}>
+                                    <img src={explore.img} alt={explore.title} />
+                                    <h4>{explore.title}</h4>
+                                    <p>{explore.description}</p>
+                                </Link>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
         </>
-    )
+    );
 }

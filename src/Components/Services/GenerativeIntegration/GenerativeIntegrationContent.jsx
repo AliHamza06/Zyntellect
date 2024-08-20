@@ -18,10 +18,10 @@ export default function GenerativeIntegrationContent() {
             <BenefitYourBusiness />
             <HaveExpertiseIn />
             <SolutionsCater />
-            <PotentialBusiness/>
-            <IntegrationProcess/>
-            <IntegrationTechnologyStack/>
-            <OurArtificialIntelligence/>
+            <PotentialBusiness />
+            <IntegrationProcess />
+            <IntegrationTechnologyStack />
+            <OurArtificialIntelligence />
         </div>
     )
 }

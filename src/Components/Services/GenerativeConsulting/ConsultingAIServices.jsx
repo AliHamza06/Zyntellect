@@ -73,7 +73,7 @@ export default function ConsultingAIServices() {
                     ))}
                 </div>
             </div>
-            <div className="marginSet">
+            {/* <div className="marginSet">
                 <div className="driveInnovation">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
@@ -89,7 +89,7 @@ export default function ConsultingAIServices() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

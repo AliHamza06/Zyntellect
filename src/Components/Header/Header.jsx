@@ -4,8 +4,8 @@ import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import ServiceDropdown from '../Dropdown/ServiceDropdown';
-import Logo from '../../assets/images/logo.png';
-import SideLogo from '../../assets/images/sideLogo.png';
+import Logo from '../../assets/images/fulllogo_nobuffer.png';
+import SideLogo from '../../assets/images/fulllogo_nobuffer.png';
 import IndustriesDropdown from '../Dropdown/IndustriesDropdown';
 
 export default function Header() {
