@@ -19,7 +19,7 @@ export default function AboutContent() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-md-5 pt-3">
-                    <h2>Who we us</h2>
+                    <h2>Who we are</h2>
                 </div>
                 <div className="row flex-lg-row flex-column-reverse">
                     <div className="col-xl-6 col-lg-6 col-md-12 mt-lg-5 mt-2">
@@ -54,9 +54,9 @@ export default function AboutContent() {
                     </div>
                 </div>
             </div>
-            <div className="marginSet">
+            {/* <div className="marginSet">
                 <IndustryLeaders />
-            </div>
+            </div> */}
             <div className="marginSet">
                 <div className="mainHeading">
                     <h2 style={{ color: '#00245B' }}>How we do it</h2>

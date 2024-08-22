@@ -17,6 +17,7 @@ import GenerativeCopilot from './Pages/ServicesDrop/GenerativeCopilot';
 import GenerativeMarketing from './Pages/ServicesDrop/GenerativeMarketing';
 import HirePromptEngineers from './Pages/ServicesDrop/HirePromptEngineers';
 import AdaptiveDevelopmentCompany from './Pages/ServicesDrop/AdaptiveDevelopmentCompany';
+import ContactUs from './Pages/ContactUs';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/insights' element={<Insights/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/work' element={<Work/>}/>
+          <Route path='/contact-us' element={<ContactUs/>}/>
 
           {/* Services Dropdown */}
           <Route path='/generative-ai-development-company' element={<GenerativeDevelopment/>}/>

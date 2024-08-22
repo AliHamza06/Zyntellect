@@ -17,7 +17,7 @@ import { Button } from '@mui/material';
 const ourGeneratives = [
     {
         title: "Data Analysis",
-        description: "LeewayHertz’s versatile generative AI engineers are proficient in data analytics and machine learning model training. Leverage their expertise to fully unravel the possibilities within your data. With expertise spanning statistics, programming, and data visualization, our GenAI engineers empower enterprises to navigate complex data, extract insights, and refine data strategies effortlessly.",
+        description: "Zyntellect’s versatile generative AI engineers are proficient in data analytics and machine learning model training. Leverage their expertise to fully unravel the possibilities within your data. With expertise spanning statistics, programming, and data visualization, our GenAI engineers empower enterprises to navigate complex data, extract insights, and refine data strategies effortlessly.",
         img: Machine,
     },
     {
@@ -46,7 +46,7 @@ const ourGeneratives = [
         img: AISolutions2,
     }
 ];
-const hireLeewayHertz = [
+const hireZyntellect = [
     {
         title: "Collaborative Excellence & Problem-solving Skills",
         description: "Hire our generative AI engineers for their collaborative excellence and adept problem-solving skills, ensuring innovative solutions and seamless teamwork for your project’s success.",
@@ -101,12 +101,12 @@ export default function EngineeringAIServices() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Why Hire LeewayHertz for Generative AI Engineers?</h2>
+                    <h2 className='mb-3'>Why Hire Zyntellect for Generative AI Engineers?</h2>
                 </div>
             </div>
             <div className="matginSet">
                 <div className="row mt-lg-4 mt-sm-4 mt-1">
-                    {hireLeewayHertz.map((hireLeewayHert, index) => (
+                    {hireZyntellect.map((hireLeewayHert, index) => (
                         <div className="col-xl-6 col-lg-6 col-md-12 mt-sm-5 mt-4" key={index}>
                             <div className="extractCard ourGenerativeCard">
                                 <img src={hireLeewayHert.img} alt={hireLeewayHert.title} />
@@ -123,7 +123,7 @@ export default function EngineeringAIServices() {
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
                         <div className="col-xl-4 col-lg-4 col-md-7">
                             <div className='driveInnovationDesc'>
-                                <p>Enhance your team with skilled Generative AI engineers from LeewayHertz. Elevate your projects and drive efficiency with our specialized AI talent.</p>
+                                <p>Enhance your team with skilled Generative AI engineers from Zyntellect. Elevate your projects and drive efficiency with our specialized AI talent.</p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-5">

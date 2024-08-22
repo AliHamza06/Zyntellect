@@ -103,7 +103,7 @@ export default function EngineeringIndustry() {
                             <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
                             <div className="col-xl-4 col-lg-4 col-md-7">
                                 <div className='driveInnovationDesc'>
-                                    <p>Enhance your team with skilled Generative AI engineers from LeewayHertz. Elevate your projects and drive efficiency with our specialized AI talent.</p>
+                                    <p>Enhance your team with skilled Generative AI engineers from Zyntellect. Elevate your projects and drive efficiency with our specialized AI talent.</p>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-5">

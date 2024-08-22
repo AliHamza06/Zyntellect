@@ -70,7 +70,7 @@ export default function OurGenerative() {
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
                         <div className="col-xl-4 col-lg-4 col-md-7">
                             <div className='driveInnovationDesc'>
-                                <p>Drive innovation in your business with LeewayHertz's expert generative AI development services.</p>
+                                <p>Drive innovation in your business with Zyntellect's expert generative AI development services.</p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-5">

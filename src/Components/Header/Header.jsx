@@ -87,12 +87,12 @@ export default function Header() {
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 listItem">
                                 <li className="nav-item">
                                     <Link className="nav-link" onClick={() => navigate('/')}>
-                                        <Button className={location.pathname === '/' ? 'activeLink' : ''}>Home</Button>
+                                        <Button className={location.pathname === '/' ? 'activeLink' : 'colorWhite'}>Home</Button>
                                     </Link>
                                 </li>
                                 <li className="nav-item" id='services'>
                                     <Link className="nav-link" onClick={() => navigate('/services')}>
-                                        <Button className={location.pathname === '/services' ? 'activeLink' : ''}>Services <i className="bi bi-caret-down-fill caretDown"></i></Button>
+                                        <Button className={location.pathname === '/services' ? 'activeLink' : 'colorWhite'}>Services <i className="bi bi-caret-down-fill caretDown"></i></Button>
                                     </Link>
                                     <div className='dropdownContent'>
                                         <ServiceDropdown />
@@ -106,7 +106,7 @@ export default function Header() {
                                         <IndustriesDropdown/>
                                     </div>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" onClick={() => navigate('/insights')}>
                                         <Button className={location.pathname === '/insights' ? 'activeLink' : 'colorWhite'}>Insights</Button>
                                     </Link>
@@ -115,7 +115,7 @@ export default function Header() {
                                     <Link className="nav-link" onClick={() => navigate('/work')}>
                                         <Button className={location.pathname === '/work' ? 'activeLink' : 'colorWhite'}>Work</Button>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <Link className="nav-link" onClick={() => navigate('/about')}>
                                         <Button className={location.pathname === '/about' ? 'activeLink' : 'colorWhite'}>About</Button>
@@ -123,7 +123,7 @@ export default function Header() {
                                 </li>
                             </ul>
                             <div className='contactButton'>
-                                <Button className='contactBtn' variant='contained'>Contact us</Button>
+                                <Button onClick={() => navigate('/contact-us')} className='contactBtn' variant='contained'>Contact us</Button>
                             </div>
                         </div>
                     </div>

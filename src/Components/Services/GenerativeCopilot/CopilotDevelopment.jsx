@@ -44,7 +44,7 @@ const personalized = [
         img: AISolutions2,
     }
 ];
-const hireLeewayHertz = [
+const hireZyntellect = [
     {
         title: "Tailored Approach",
         description: "We understand that no two businesses are alike, which is why our services are customized to fit your specific goals and workflows, ensuring a solution that is uniquely yours. Our tailored approach to building AI copilots highlights our commitment to understanding and addressing the unique needs of each client.",
@@ -89,12 +89,12 @@ export default function CopilotDevelopment() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Why Choose LeewayHertz for AI Copilot Development?</h2>
+                    <h2 className='mb-3'>Why Choose Zyntellect for AI Copilot Development?</h2>
                 </div>
             </div>
             <div className="matginSet">
                 <div className="row mt-lg-4 mt-sm-4 mt-1">
-                    {hireLeewayHertz.map((hireLeewayHert, index) => (
+                    {hireZyntellect.map((hireLeewayHert, index) => (
                         <div className="col-xl-6 col-lg-6 col-md-12 mt-sm-5 mt-4" key={index}>
                             <div className="extractCard ourGenerativeCard">
                                 <img src={hireLeewayHert.img} alt={hireLeewayHert.title} />

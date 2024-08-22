@@ -133,7 +133,7 @@ body {
     background-image: url(../images/hero.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 740px;
+    height: 755px;
     background-position: right !important;
     display: flex;
     align-items: center;
@@ -1463,9 +1463,9 @@ body {
     display: none;
 } */
 
-.otherStyle .listItem {
+/* .otherStyle .listItem {
     margin: 0 auto !important;
-}
+} */
 
 .otherStyle .containerFluidPadd {
     padding: 0 !important;
@@ -2131,7 +2131,40 @@ p {
     color: #00245B;
     text-align: center !important;
 }
-
+.customersSayCard{
+    align-items: start !important;
+    height: 100%;
+}
+.customersSayCard img{
+    width: auto;
+    height: 67px; 
+}
+.customersSayCard h4{
+    text-align: start !important;
+    line-height: 31.6px;
+    letter-spacing: .4px;
+}
+.userCont{
+    margin-top: 1rem;
+}
+.userCont h5{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.7px;
+    color: #00245B;
+    margin-bottom: 0;
+}
+.userCont h6{
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27.7px;
+    color: #00245B;
+}
+.globalImg{
+    width: 75%;
+}
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -2146,6 +2179,10 @@ p {
 }
 
 @media (max-width: 1440px) {
+    .customersSayCard img {
+        width: auto;
+        height: 60px;
+    }
     .ourGenerativeLiCard {
         min-height: 450px;
     }
@@ -2250,7 +2287,7 @@ p {
 
     .heroMainSection {
         /* background-position: calc(900px - 423px); */
-        height: 698px;
+        height: 705px;
     }
 
     .extractCard p {
@@ -2392,7 +2429,7 @@ p {
 
     .heroMainSection {
         /* background-position: calc(900px - 489px); */
-        height: 630px;
+        height: 648px;
     }
 
     .heroSectionContent {
@@ -3020,6 +3057,13 @@ p {
 }
 
 @media (max-width : 576px) {
+    .globalImg{
+        width: 100%;
+    }
+    .customersSayCard img {
+        width: auto;
+        height: 50px;
+    }
     .industry-icon {
         width: 65px;
         height: 65px;
@@ -3581,7 +3625,7 @@ p {
 
     .footerSection {
         padding-top: 20px;
-        margin-top: 40px !important;
+        margin-top: 25px !important;
     }
 
     .copyRightSection {

@@ -72,7 +72,7 @@ export default function MarketingAgent() {
         <>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Why Choose LeewayHertz for AI Marketing Agent Development?</h2>
+                    <h2 className='mb-3'>Why Choose Zyntellect for AI Marketing Agent Development?</h2>
                 </div>
             </div>
             <div className="matginSet">

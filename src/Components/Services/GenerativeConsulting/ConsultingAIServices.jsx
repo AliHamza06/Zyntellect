@@ -79,7 +79,7 @@ export default function ConsultingAIServices() {
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
                         <div className="col-xl-4 col-lg-4 col-md-7">
                             <div className='driveInnovationDesc'>
-                                <p>Discover how generative AI can transform your operations. Drive innovation and productivity with LeewayHertz's top-tier consulting and development services.</p>
+                                <p>Discover how generative AI can transform your operations. Drive innovation and productivity with Zyntellect's top-tier consulting and development services.</p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-5">

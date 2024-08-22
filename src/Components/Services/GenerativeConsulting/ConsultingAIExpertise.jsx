@@ -36,7 +36,7 @@ const consultings = [
         img: AISolutions,
     },
 ];
-const leewayHertzs = [
+const Zyntellects = [
     {
         title: "Expertise in Generative AI",
         description: "Experience the next level of AI innovation with our tailored solutions. We excel in developing custom generative AI solutions like OpenAI’s ChatGPT, Google’s Bard, Stability AI’s Stable Diffusion, and Midjourney, enabling businesses to harness the latest advancements in generative AI technology.",
@@ -103,17 +103,17 @@ export default function ConsultingAIExpertise() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Why Choose LeewayHertz?</h2>
+                    <h2 className='mb-3'>Why Choose Zyntellect?</h2>
                 </div>
             </div>
             <div className="matginSet">
                 <div className="row mt-lg-4 mt-sm-4 mt-1">
-                    {leewayHertzs.map((leewayHertz, index) => (
+                    {Zyntellects.map((Zyntellect, index) => (
                         <div className="col-xl-6 col-lg-6 col-md-12 mt-sm-5 mt-4" key={index}>
                             <div className="extractCard ourGenerativeCard">
-                                <img src={leewayHertz.img} alt={leewayHertz.title} />
-                                <h4>{leewayHertz.title}</h4>
-                                <p>{leewayHertz.description}</p>
+                                <img src={Zyntellect.img} alt={Zyntellect.title} />
+                                <h4>{Zyntellect.title}</h4>
+                                <p>{Zyntellect.description}</p>
                             </div>
                         </div>
                     ))}

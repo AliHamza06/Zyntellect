@@ -36,7 +36,7 @@ const personalized = [
         img: AISolutions,
     }
 ];
-const hireLeewayHertz = [
+const hireZyntellect = [
     {
         title: "Collaborative Excellence & Problem-solving Skills",
         description: "Hire our generative AI engineers for their collaborative excellence and adept problem-solving skills, ensuring innovative solutions and seamless teamwork for your project’s success.",
@@ -96,7 +96,7 @@ export default function AgentsDo() {
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
                         <div className="col-xl-4 col-lg-4 col-md-7">
                             <div className='driveInnovationDesc'>
-                                <p>Elevate your business with custom AI agent development. LeewayHertz's AI solutions streamline processes and automate tasks. Let's discuss your project.</p>
+                                <p>Elevate your business with custom AI agent development. Zyntellect's AI solutions streamline processes and automate tasks. Let's discuss your project.</p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-5">

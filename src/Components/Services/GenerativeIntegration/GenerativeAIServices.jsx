@@ -55,7 +55,7 @@ export default function GenerativeAIServices() {
                         <div className="col-xl-4 col-lg-4 d-lg-block d-none"></div>
                         <div className="col-xl-4 col-lg-4 col-md-7">
                             <div className='driveInnovationDesc'>
-                                <p>Want to integrate Generative AI into your business? Integrate Generative AI with LeewayHertz's custom solutions to optimize workflows and drive innovation.</p>
+                                <p>Want to integrate Generative AI into your business? Integrate Generative AI with Zyntellect's custom solutions to optimize workflows and drive innovation.</p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-5">

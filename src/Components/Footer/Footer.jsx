@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/images/logo.png';
+import Logo from '../../assets/images/fulllogo_nobuffer.png';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { IconButton } from '@mui/material';
@@ -41,7 +41,7 @@ export default function Footer() {
                                         <a href="#">Jobs</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contacts</a>
+                                        <Link to="/contact-us">Contacts</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -89,7 +89,7 @@ export default function Footer() {
                         <p>© All rights reserved. Made by <strong>Zyntellect</strong></p>
                         <div className='termsSec'>
                             <a href="#">Support</a>
-                            <a href="#">Contacts</a>
+                            <Link to="/contact-us">Contacts</Link>
                             <a href="#">Terms & Conditions</a>
                         </div>
                     </div>
