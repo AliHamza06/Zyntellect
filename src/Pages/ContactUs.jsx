@@ -17,7 +17,7 @@ export default function ContactUs() {
                 </div>
                 <StartConversationForm />
             </div>
-            <ContactUsContent/>
+            <ContactUsContent />
         </>
     )
 }

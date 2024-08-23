@@ -2073,20 +2073,25 @@ p {
 .processCard {
     min-height: 500px;
 }
-.relatedInsightCard{
+
+.relatedInsightCard {
     min-height: 350px !important;
 }
-.gatheringCard{
+
+.gatheringCard {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-.gatheringCard img{
+
+.gatheringCard img {
     margin-top: 1.2rem;
 }
-.gatheringCard p{
+
+.gatheringCard p {
     margin-top: 1rem;
 }
+
 .wide-array-industries {
     padding: 50px 20px;
     background-color: #f9f9f9;
@@ -2131,23 +2136,28 @@ p {
     color: #00245B;
     text-align: center !important;
 }
-.customersSayCard{
+
+.customersSayCard {
     align-items: start !important;
     height: 100%;
 }
-.customersSayCard img{
+
+.customersSayCard img {
     width: auto;
-    height: 67px; 
+    height: 67px;
 }
-.customersSayCard h4{
+
+.customersSayCard h4 {
     text-align: start !important;
     line-height: 31.6px;
     letter-spacing: .4px;
 }
-.userCont{
+
+.userCont {
     margin-top: 1rem;
 }
-.userCont h5{
+
+.userCont h5 {
     font-family: 'DM Sans';
     font-size: 18px;
     font-weight: 700;
@@ -2155,16 +2165,88 @@ p {
     color: #00245B;
     margin-bottom: 0;
 }
-.userCont h6{
+
+.userCont h6 {
     font-family: 'DM Sans';
     font-size: 15px;
     font-weight: 500;
     line-height: 27.7px;
     color: #00245B;
 }
-.globalImg{
+
+.globalImg {
     width: 75%;
 }
+
+.newsCard {
+    padding: 10px 10px 20px 10px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 5px 20px 40px 0px #0000000A;
+    box-shadow: -1px 0px 10px 0px #00000012;
+}
+
+.newsCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projectCard {
+    background-color: #fff;
+    padding: 10px 10px 20px 10px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 5px 20px 40px 0px #0000000A;
+    box-shadow: -1px 0px 10px 0px #00000012;
+
+}
+
+.projectCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.newsCardContent a {
+    text-decoration: none;
+}
+
+.newsCardContent {
+    margin-top: 1rem;
+}
+
+.newsCardContent h6 {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: start;
+    color: #00245B;
+}
+
+.newsCardContent p {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-align: start;
+    color: #737491;
+    margin-bottom: 0;
+}
+
+.newsCardFooter {
+    margin-top: 1.5rem;
+}
+
+.newsCardFooter button {
+    background-color: #00245B;
+    text-transform: unset;
+    font-family: 'DM Sans';
+}
+
+.newsCardFooter button:hover {
+    background-color: #6681C3;
+}
+
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -2183,6 +2265,7 @@ p {
         width: auto;
         height: 60px;
     }
+
     .ourGenerativeLiCard {
         min-height: 450px;
     }
@@ -2334,7 +2417,8 @@ p {
     .cardFooter h4 {
         font-size: 18px;
     }
-    .relatedInsightCard{
+
+    .relatedInsightCard {
         min-height: 510px !important;
     }
 }
@@ -2438,16 +2522,19 @@ p {
 }
 
 @media (max-width : 1200px) {
-    .gatheringCard{
+    .gatheringCard {
         flex-direction: column;
         gap: 10px;
     }
-    .gatheringCard img{
+
+    .gatheringCard img {
         margin-top: 0;
     }
-    .gatheringCard p{
+
+    .gatheringCard p {
         margin-top: 10px;
     }
+
     .ourGenerativeLiCard {
         min-height: 400px;
     }
@@ -2747,7 +2834,8 @@ p {
     .heroSectionContent {
         max-width: 953px;
     }
-    .relatedInsightCard{
+
+    .relatedInsightCard {
         min-height: 510px !important;
     }
 }
@@ -3057,23 +3145,28 @@ p {
 }
 
 @media (max-width : 576px) {
-    .globalImg{
+    .globalImg {
         width: 100%;
     }
+
     .customersSayCard img {
         width: auto;
         height: 50px;
     }
+
     .industry-icon {
         width: 65px;
         height: 65px;
     }
+
     .extractCard li {
         font-size: 15px;
     }
+
     .industry-title {
         font-size: 20px;
-    }    
+    }
+
     .headerLogo {
         height: 52px;
     }
