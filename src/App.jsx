@@ -18,6 +18,8 @@ import GenerativeMarketing from './Pages/ServicesDrop/GenerativeMarketing';
 import HirePromptEngineers from './Pages/ServicesDrop/HirePromptEngineers';
 import AdaptiveDevelopmentCompany from './Pages/ServicesDrop/AdaptiveDevelopmentCompany';
 import ContactUs from './Pages/ContactUs';
+import ChatGPTDevelopers from './Pages/ServicesDrop/ChatGPTDevelopers';
+import StableDiffusionDevelopers from './Pages/ServicesDrop/StableDiffusionDevelopers';
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
           <Route path='/ai-marketing-agent-development' element={<GenerativeMarketing/>}/>  
           <Route path='/hire-prompt-engineers' element={<HirePromptEngineers/>}/>
           <Route path='/adaptive-ai-development-company' element={<AdaptiveDevelopmentCompany/>}/>
+          <Route path='/chatgpt-developers' element={<ChatGPTDevelopers/>}/>
+          <Route path='/stable-diffusion-developers' element={<StableDiffusionDevelopers/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -195,8 +195,8 @@ export const serviceData = {
     { imgSrc: ChatGPTIntegration, linkText: 'AI Marketing Agent Development', linkTo: '/ai-marketing-agent-development' },
     { imgSrc: EngineersDevelopment, linkText: 'Hire Prompt Engineers', linkTo: '/hire-prompt-engineers' },
     { imgSrc: AdaptiveAI, linkText: 'Adaptive AI Development Company', linkTo: '/adaptive-ai-development-company' },
-    { imgSrc: ChatGPTDevelopers, linkText: 'ChatGPT Developers', linkTo: '#' },
-    { imgSrc: StableDiffusion, linkText: 'Stable Diffusion Developers', linkTo: '#' },
+    { imgSrc: ChatGPTDevelopers, linkText: 'ChatGPT Developers', linkTo: '/chatgpt-developers' },
+    { imgSrc: StableDiffusion, linkText: 'Stable Diffusion Developers', linkTo: '/stable-diffusion-developers' },
     { imgSrc: LargeLanguage, linkText: 'Large Language Model Development', linkTo: '#' },
   ]
 };

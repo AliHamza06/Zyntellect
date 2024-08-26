@@ -1869,9 +1869,11 @@ p {
     font-size: 20px;
     font-weight: 600;
     line-height: 26.04px;
-    color: #000000;
+    color: #00245B;
 }
-
+.insighCardsHe{
+    height: 100%;
+}
 .startConvBtn {
     width: 100% !important;
     padding: 14px 20px !important;
@@ -2246,7 +2248,12 @@ p {
 .newsCardFooter button:hover {
     background-color: #6681C3;
 }
-
+.servedCard{
+    height: 100% !important;
+}
+.insighCardsHe a{
+    text-decoration: none;
+}
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -3145,6 +3152,9 @@ p {
 }
 
 @media (max-width : 576px) {
+    .newsCardContent h6 {
+        font-size: 20px;
+    }
     .globalImg {
         width: 100%;
     }
