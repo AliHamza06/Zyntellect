@@ -197,7 +197,7 @@ export const serviceData = {
     { imgSrc: AdaptiveAI, linkText: 'Adaptive AI Development Company', linkTo: '/adaptive-ai-development-company' },
     { imgSrc: ChatGPTDevelopers, linkText: 'ChatGPT Developers', linkTo: '/chatgpt-developers' },
     { imgSrc: StableDiffusion, linkText: 'Stable Diffusion Developers', linkTo: '/stable-diffusion-developers' },
-    { imgSrc: LargeLanguage, linkText: 'Large Language Model Development', linkTo: '#' },
+    { imgSrc: LargeLanguage, linkText: 'Large Language Model Development', linkTo: '/large-language-model-development-company' },
   ]
 };
 export const artificialMl = {

@@ -20,6 +20,7 @@ import AdaptiveDevelopmentCompany from './Pages/ServicesDrop/AdaptiveDevelopment
 import ContactUs from './Pages/ContactUs';
 import ChatGPTDevelopers from './Pages/ServicesDrop/ChatGPTDevelopers';
 import StableDiffusionDevelopers from './Pages/ServicesDrop/StableDiffusionDevelopers';
+import LargeLanguageModel from './Pages/ServicesDrop/LargeLanguageModel';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path='/adaptive-ai-development-company' element={<AdaptiveDevelopmentCompany/>}/>
           <Route path='/chatgpt-developers' element={<ChatGPTDevelopers/>}/>
           <Route path='/stable-diffusion-developers' element={<StableDiffusionDevelopers/>}/>
+          <Route path='/large-language-model-development-company' element={<LargeLanguageModel/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
