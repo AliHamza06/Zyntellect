@@ -202,7 +202,7 @@ export const serviceData = {
 };
 export const artificialMl = {
   Artificial: [
-    { imgSrc: Artificial1, linkText: 'AI Development', linkTo: '#' },
+    { imgSrc: Artificial1, linkText: 'AI Development', linkTo: '/ai-development-services-company' },
     { imgSrc: Artificial2, linkText: 'AI Consulting', linkTo: '#' },
     { imgSrc: Artificial3, linkText: 'Hire AI Engineers', linkTo: '#' },
     { imgSrc: Artificial4, linkText: 'AI as a Service', linkTo: '#' },
