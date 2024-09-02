@@ -2080,11 +2080,7 @@ p {
     min-height: 350px !important;
 }
 
-.gatheringCard {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
+
 
 .gatheringCard img {
     margin-top: 1.2rem;
@@ -2253,6 +2249,12 @@ p {
 }
 .insighCardsHe a{
     text-decoration: none;
+}
+.gatheringCard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 300px;
 }
 @media (min-width: 1440px) {
     .send-button {

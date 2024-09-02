@@ -9,7 +9,7 @@ export default function LargeLanguageModelHero() {
                     <div className='herosection2'>
                         <h2>Large Language Model Development Company</h2>
                         <p>
-                        At LeewayHertz, we offer a comprehensive suite of LLM development services tailored to meet your industry-specific needs. Our expertise encompasses both the creation of LLMs from scratch and the fine-tuning of pre-trained models to align seamlessly with your domain requirements. Whether starting from the ground up or optimizing existing models, our AI experts ensure a customized solution that enhances accuracy, efficiency, and productivity, ultimately improving your workflows and driving operational excellence.
+                        At Zyntellect, we offer a comprehensive suite of LLM development services tailored to meet your industry-specific needs. Our expertise encompasses both the creation of LLMs from scratch and the fine-tuning of pre-trained models to align seamlessly with your domain requirements. Whether starting from the ground up or optimizing existing models, our AI experts ensure a customized solution that enhances accuracy, efficiency, and productivity, ultimately improving your workflows and driving operational excellence.
                         </p>
                         <div className='ourServicesContent h-auto'>
                             <Button variant='outlined' className='mt-3'>Discuss your project</Button>
