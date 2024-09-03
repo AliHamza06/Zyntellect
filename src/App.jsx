@@ -7,7 +7,6 @@ import Services from './Pages/Services';
 import Industries from './Pages/Industries';
 import Insights from './Pages/Insights';
 import About from './Pages/About';
-import Work from './Pages/Work';
 import GenerativeDevelopment from './Pages/ServicesDrop/GenerativeDevelopment'
 import GenerativeIntegration from './Pages/ServicesDrop/GenerativeIntegration';
 import GenerativeConsulting from './Pages/ServicesDrop/GenerativeConsulting';
@@ -22,6 +21,9 @@ import ChatGPTDevelopers from './Pages/ServicesDrop/ChatGPTDevelopers';
 import StableDiffusionDevelopers from './Pages/ServicesDrop/StableDiffusionDevelopers';
 import LargeLanguageModel from './Pages/ServicesDrop/LargeLanguageModel';
 import AIDevelopment from './Pages/ServicesDrop/ArtificialIntelligenceML/AIDevelopment';
+import AIConsulting from './Pages/ServicesDrop/ArtificialIntelligenceML/AIConsulting';
+import HireAIEngineers from './Pages/ServicesDrop/ArtificialIntelligenceML/HireAIEngineers';
+import AIService from './Pages/ServicesDrop/ArtificialIntelligenceML/AIService';
 
 function App() {
   return (
@@ -30,28 +32,30 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path='/industries' element={<Industries/>}/>
-          <Route path='/insights' element={<Insights/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/work' element={<Work/>}/>
-          <Route path='/contact-us' element={<ContactUs/>}/>
+          <Route path='/industries' element={<Industries />} />
+          <Route path='/insights' element={<Insights />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact-us' element={<ContactUs />} />
 
           {/* Services Dropdown */}
-          <Route path='/generative-ai-development-company' element={<GenerativeDevelopment/>}/>
-          <Route path='/generative-ai-integration-service' element={<GenerativeIntegration/>}/>
-          <Route path='/generative-ai-consulting-company' element={<GenerativeConsulting/>}/> 
-          <Route path='/hire-generative-ai-engineers' element={<GenerativeEngineers/>}/>
-          <Route path='/ai-agent-development-company' element={<GenerativeAgent/>}/>
-          <Route path='/ai-copilot-development-company' element={<GenerativeCopilot/>}/>
-          <Route path='/ai-marketing-agent-development' element={<GenerativeMarketing/>}/>  
-          <Route path='/hire-prompt-engineers' element={<HirePromptEngineers/>}/>
-          <Route path='/adaptive-ai-development-company' element={<AdaptiveDevelopmentCompany/>}/>
-          <Route path='/chatgpt-developers' element={<ChatGPTDevelopers/>}/>
-          <Route path='/stable-diffusion-developers' element={<StableDiffusionDevelopers/>}/>
-          <Route path='/large-language-model-development-company' element={<LargeLanguageModel/>}/>
+          <Route path='/generative-ai-development-company' element={<GenerativeDevelopment />} />
+          <Route path='/generative-ai-integration-service' element={<GenerativeIntegration />} />
+          <Route path='/generative-ai-consulting-company' element={<GenerativeConsulting />} />
+          <Route path='/hire-generative-ai-engineers' element={<GenerativeEngineers />} />
+          <Route path='/ai-agent-development-company' element={<GenerativeAgent />} />
+          <Route path='/ai-copilot-development-company' element={<GenerativeCopilot />} />
+          <Route path='/ai-marketing-agent-development' element={<GenerativeMarketing />} />
+          <Route path='/hire-prompt-engineers' element={<HirePromptEngineers />} />
+          <Route path='/adaptive-ai-development-company' element={<AdaptiveDevelopmentCompany />} />
+          <Route path='/chatgpt-developers' element={<ChatGPTDevelopers />} />
+          <Route path='/stable-diffusion-developers' element={<StableDiffusionDevelopers />} />
+          <Route path='/large-language-model-development-company' element={<LargeLanguageModel />} />
 
           {/* Artificial Intelligence */}
-          <Route path='/ai-development-services-company' element={<AIDevelopment/>}/>
+          <Route path='/ai-development-services-company' element={<AIDevelopment />} />
+          <Route path='/ai-consulting-services-company' element={<AIConsulting />} />
+          <Route path='/hire-ai-engineers' element={<HireAIEngineers />} />
+          <Route path='/ai-as-a-service' element={<AIService />} />
         </Route>
       </Routes>
     </BrowserRouter>

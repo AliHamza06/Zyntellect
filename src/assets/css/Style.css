@@ -1871,9 +1871,11 @@ p {
     line-height: 26.04px;
     color: #00245B;
 }
-.insighCardsHe{
+
+.insighCardsHe {
     height: 100%;
 }
+
 .startConvBtn {
     width: 100% !important;
     padding: 14px 20px !important;
@@ -2106,7 +2108,7 @@ p {
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
-    max-width: 350px;
+    /* max-width: 350px; */
 }
 
 .industry-card:hover {
@@ -2244,18 +2246,36 @@ p {
 .newsCardFooter button:hover {
     background-color: #6681C3;
 }
-.servedCard{
+
+.servedCard {
     height: 100% !important;
 }
-.insighCardsHe a{
+
+.insighCardsHe a {
     text-decoration: none;
 }
+
 .gatheringCard {
     display: flex;
     flex-direction: row;
     gap: 20px;
     height: 300px;
 }
+.approachCard{
+    padding-bottom: 30px;
+}
+.approachCard img {
+    margin-top: 0;
+}
+
+.approachCard h4 {
+    margin-top: 5px;
+}
+
+.approachCard p {
+    margin-top: 10px;
+}
+
 @media (min-width: 1440px) {
     .send-button {
         padding: 12.5px 25px !important;
@@ -3154,9 +3174,16 @@ p {
 }
 
 @media (max-width : 576px) {
+    .wide-array-industries {
+        padding: 20px 20px 5px 20px;
+    }
+    .contactUsCard object {
+        width: 52px;
+    }
     .newsCardContent h6 {
         font-size: 20px;
     }
+
     .globalImg {
         width: 100%;
     }
