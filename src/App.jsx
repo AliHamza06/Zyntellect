@@ -24,6 +24,8 @@ import AIDevelopment from './Pages/ServicesDrop/ArtificialIntelligenceML/AIDevel
 import AIConsulting from './Pages/ServicesDrop/ArtificialIntelligenceML/AIConsulting';
 import HireAIEngineers from './Pages/ServicesDrop/ArtificialIntelligenceML/HireAIEngineers';
 import AIService from './Pages/ServicesDrop/ArtificialIntelligenceML/AIService';
+import HireTransformer from './Pages/ServicesDrop/ArtificialIntelligenceML/HireTransformer';
+import MLOpsConsulting from './Pages/ServicesDrop/ArtificialIntelligenceML/MLOpsConsulting';
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
           <Route path='/ai-consulting-services-company' element={<AIConsulting />} />
           <Route path='/hire-ai-engineers' element={<HireAIEngineers />} />
           <Route path='/ai-as-a-service' element={<AIService />} />
+          <Route path='/hire-action-transformer-developers' element={<HireTransformer/>} />
+          <Route path='/mlops-consulting-services' element={<MLOpsConsulting/>} />
         </Route>
       </Routes>
     </BrowserRouter>

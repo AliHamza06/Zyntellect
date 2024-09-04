@@ -89,7 +89,7 @@ const approachs = [
     },
     {
         title: "Use of Ethical AI",
-        description: "By choosing LeewayHertz for AIaaS, you are not only investing in advanced AI capabilities but also in the responsible and ethical use of AI technology. We are dedicated to upholding ethical AI principles, fostering trust, and ensuring that AI serves as a force for good in your business and the broader community.",
+        description: "By choosing Zyntellect for AIaaS, you are not only investing in advanced AI capabilities but also in the responsible and ethical use of AI technology. We are dedicated to upholding ethical AI principles, fostering trust, and ensuring that AI serves as a force for good in your business and the broader community.",
         img: DomainSpecific2,
     },
 
@@ -101,7 +101,7 @@ export default function BenefitsComplexity() {
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
                     <h2 className='mb-3'>Experience the Benefits of AI Without the Complexity</h2>
                     <p className='text-center'>
-                    With LeewayHertz’s AIaaS/PaaS offerings, businesses can leverage the benefits of AI without the need for a dedicated team of designers and developers. They offer a user-friendly, no-code infrastructure that eliminates the requirement for coding or technical skills throughout the development process, ensuring businesses can harness AI’s power without facing technological challenges.
+                    With Zyntellect’s AIaaS/PaaS offerings, businesses can leverage the benefits of AI without the need for a dedicated team of designers and developers. They offer a user-friendly, no-code infrastructure that eliminates the requirement for coding or technical skills throughout the development process, ensuring businesses can harness AI’s power without facing technological challenges.
                     </p>
                     <h2 className='mt-5'>Our AIaaS/PaaS Offerings Equip You With These Key Capabilities</h2>
                 </div>
@@ -139,7 +139,7 @@ export default function BenefitsComplexity() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Why Choose LeewayHertz?</h2>
+                    <h2 className='mb-3'>Why Choose Zyntellect?</h2>
                 </div>
             </div>
             <div className="matginSet">

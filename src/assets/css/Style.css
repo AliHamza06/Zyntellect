@@ -2093,7 +2093,7 @@ p {
 }
 
 .wide-array-industries {
-    padding: 50px 20px;
+    padding: 30px 20px 8px 20px;
     background-color: #f9f9f9;
 }
 
@@ -3175,7 +3175,7 @@ p {
 
 @media (max-width : 576px) {
     .wide-array-industries {
-        padding: 20px 20px 5px 20px;
+        padding: 20px 20px 0px 20px;
     }
     .contactUsCard object {
         width: 52px;

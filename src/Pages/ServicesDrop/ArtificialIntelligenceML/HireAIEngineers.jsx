@@ -5,12 +5,12 @@ import HireAiEngineersContent from '../../../Components/Services/ArtificialIntel
 export default function HireAIEngineers() {
   return (
     <>
-    <div className='manageWidth layoutContainer2'>
-        <HireAIEngineersHero/>
-        </div>
-        <div className='manageWidth'>
-            <HireAiEngineersContent/>
-        </div>
+      <div className='manageWidth layoutContainer2'>
+        <HireAIEngineersHero />
+      </div>
+      <div className='manageWidth'>
+        <HireAiEngineersContent />
+      </div>
     </>
   )
 }
