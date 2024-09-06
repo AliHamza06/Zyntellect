@@ -112,7 +112,7 @@ const hireZyntellect = [
     },
     {
         title: "Manufacturing",
-        description: "Streamline the integration of machine learning models into existing manufacturing systems, boosting efficiency and reducing downtime. LeewayHertz helps you harness MLOps for optimizing predictive maintenance, quality control, demand forecasting and autonomous production in the manufacturing industry.",
+        description: "Streamline the integration of machine learning models into existing manufacturing systems, boosting efficiency and reducing downtime. Zyntellect helps you harness MLOps for optimizing predictive maintenance, quality control, demand forecasting and autonomous production in the manufacturing industry.",
         img: AISolutions4,
         linkTo : "#"
     }

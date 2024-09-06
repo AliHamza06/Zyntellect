@@ -209,7 +209,7 @@ export const artificialMl = {
     { imgSrc: Artificial5, linkText: 'Hire Action Transformer Developers', linkTo: '/hire-action-transformer-developers' },
     { imgSrc: Artificial6, linkText: 'MLOps Consulting Services', linkTo: '/mlops-consulting-services' },
     { imgSrc: Artificial7, linkText: 'Enterprise AI Development', linkTo: '/enterprise-ai-development-company' },
-    { imgSrc: Artificial8, linkText: 'AI Chatbot Development Company', linkTo: '#' },
+    { imgSrc: Artificial8, linkText: 'AI Chatbot Development Company', linkTo: '/ai-chatbot-development-company' },
     { imgSrc: Artificial9, linkText: 'Enterprise AI Chatbot Development Company', linkTo: '#' },
     { imgSrc: Artificial10, linkText: 'Transformer Model Development', linkTo: '#' },
   ]
