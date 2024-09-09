@@ -1,116 +1,110 @@
 import React from 'react'
-import Machine from '../../../../assets/images/icon/AIConsulting1.svg';
-import DataAnalysis from '../../../../assets/images/icon/AIConsulting2.svg';
-import DomainSpecific from '../../../../assets/images/icon/AIConsulting3.svg';
-import AISolutions from '../../../../assets/images/icon/AIConsulting4.svg';
-import AIIntegration from '../../../../assets/images/icon/AIConsulting5.svg';
-import UpgradeMaintenance from '../../../../assets/images/icon/AIConsulting6.svg';
-import CreativeDesign from '../../../../assets/images/icon/AIConsulting7.svg';
-import WorkflowAutomation from '../../../../assets/images/icon/AIConsulting8.svg';
-import AIIntegration2 from '../../../../assets/images/icon/AIConsulting9.svg';
-import UpgradeMaintenance2 from '../../../../assets/images/icon/AIConsulting10.svg';
-import CreativeDesign2 from '../../../../assets/images/icon/AIConsulting11.svg';
-import Machine2 from '../../../../assets/images/icon/AIConsulting12.svg';
-import DataAnalysis2 from '../../../../assets/images/icon/AIConsulting13.svg';
-import DomainSpecific2 from '../../../../assets/images/icon/AIConsulting14.svg';
-import AISolutions2 from '../../../../assets/images/icon/AIConsulting15.svg';
-import AIIntegration3 from '../../../../assets/images/icon/AIConsulting16.svg';
-import UpgradeMaintenance3 from '../../../../assets/images/icon/AIConsulting17.svg';
+import Machine from '../../../../assets/images/icon/technology1.svg';
+import DataAnalysis from '../../../../assets/images/icon/technology2.svg';
+import DomainSpecific from '../../../../assets/images/icon/technology3.svg';
+import AISolutions from '../../../../assets/images/icon/technology4.svg';
+import AIIntegration from '../../../../assets/images/icon/technology5.svg';
+import UpgradeMaintenance from '../../../../assets/images/icon/technology6.svg';
+import CreativeDesign from '../../../../assets/images/icon/technology7.svg';
+import WorkflowAutomation from '../../../../assets/images/icon/technology8.svg';
+import AIIntegration2 from '../../../../assets/images/icon/technology9.svg';
+import UpgradeMaintenance2 from '../../../../assets/images/icon/technology10.svg';
+import CreativeDesign2 from '../../../../assets/images/icon/technology11.svg';
+import Machine2 from '../../../../assets/images/icon/technology12.svg';
+import DataAnalysis2 from '../../../../assets/images/icon/technology13.svg';
+import DomainSpecific2 from '../../../../assets/images/icon/technology14.svg';
+import AISolutions2 from '../../../../assets/images/icon/technology15.svg';
+import AIIntegration3 from '../../../../assets/images/icon/technology16.svg';
 import CreativeDesign3 from '../../../../assets/images/icon/adaptive18.svg';
 import IntegratProcess from '../../../../assets/images/how-to-build-a-generative-ai-application.svg';
 import { Link } from 'react-router-dom';
 
 const unlockStrategic = [
     {
-        title: "AI Strategy Development",
-        description: "We begin with an initial consultation to thoroughly understand your business needs, challenges, and strategic goals. During this phase, we engage with key stakeholders to gather insights and considerations crucial for tailoring our AI strategy to your unique requirements. Following this, we develop a detailed implementation roadmap that outlines the specific steps and timelines for integrating AI into your operations.",
+        title: "Technology Consulting and Strategy Building",
+        description: "Our team of technology consultants will provide you with the knowledge and guidance needed for AI adoption. We assess your unique business needs, recommend the most suitable chatbot type, and develop a comprehensive strategy for seamless implementation. With our expertise, you will be able to harness the full potential of conversational AI to enhance customer interactions and streamline operations.",
         img: Machine,
     },
     {
-        title: "AI Opportunity Mapping",
-        description: "We identify and assesses potential AI use cases within your organization. We evaluate current operations and analyze data to pinpoint areas where AI can drive efficiency, innovation, and growth. By identifying high-impact opportunities, we provide a strategic roadmap for effective AI implementation. This comprehensive assessment helps you prioritize AI initiatives that offer the greatest return on investment and align with your long-term goals.",
+        title: "Chatbot Design and Development",
+        description: "We specialize in creating custom chatbot solutions tailored to your business’s unique needs. Our design and development team collaborates closely with you to understand your brand, objectives, challenges and customer requirements. We then design and build chatbots that not only engage users with context-aware responses but also align with your brand’s personality, ensuring a memorable and efficient user experience.",
         img: DataAnalysis,
     },
     {
-        title: "Domain-specific Model Development",
-        description: "We thoroughly assess your specific domain, gaining insights into the intricacies and nuances that define your industry landscape. Leveraging this deep understanding, we select and fine-tune a foundation model like GPT, Llama, PaLM, Claude, Gemini, Mixtral or Mistral and integrate it with your proprietary data. Through rigorous testing and validation, we ensure that the model aligns perfectly with your business requirements.",
+        title: "Chatbot Integration",
+        description: "Integrating a chatbot seamlessly into your existing systems and platforms is crucial for its effectiveness. Our integration process ensures that your chatbot boosts operational efficiency, maintains data consistency, and provides an enhanced and cohesive customer experience across all touchpoints. We also make sure that the chatbot is seamlessly integrated into your systems without any disruptions in your day-to-day operations.",
         img: DomainSpecific,
     },
     {
-        title: "Generative AI Solutions Development",
-        description: "We offer a comprehensive end-to-end generative AI solution development service, covering everything from UX/UI design to model integration, ensuring a seamless and effective process tailored to your needs. Whether you want a chatbot/virtual assistant, content generation tool, or AI agent, our expertise in GenAI solutions development ensures we can bring your vision to life.",
+        title: "Maintenance and Support",
+        description: "Post-deployment, we offer ongoing maintenance and support to keep your chatbot running smoothly. Our team monitors performance, resolves issues, and ensures your chatbot remains up-to-date with the latest technology advancements and trends. We are here to provide round-the-clock support, allowing you to focus on your core business while we manage your chatbot’s overall performance.",
         img: AISolutions,
-    },
-    {
-        title: "Data Engineering",
-        description: "Our data engineering services encompass the entire data lifecycle, from sourcing and cleansing to structuring and enrichment. With a focus on data mining, analysis, annotation, and labeling, we lay the foundation for robust AI models. Leveraging advanced techniques and tools, we ensure that your data is optimized for machine learning, enabling accurate and reliable model training.",
-        img: AIIntegration,
-    },
-    {
-        title: "AI Integration",
-        description: "Our comprehensive service extends beyond AI solution development; we seamlessly integrate the solutions we build into your existing systems. Our expert team ensures a smooth transition, guaranteeing that AI seamlessly becomes an integral part of your operations, empowering your organization to effectively harness AI’s transformative capabilities.",
-        img: UpgradeMaintenance,
     },
     
 ];
 const supports = [
     {
-        title: "Deep Experience and Expertise",
-        description: "With a commitment to excellence, Zyntellect is your trusted partner for AI development and consulting. Our extensive expertise and experience sets us apart, enabling us to offer a full spectrum of AI development and consulting services that cater to various industries.",
+        title: "GPT-based Chatbots",
+        description: "Harness the unparalleled natural language understanding and generation capabilities of our GPT-powered chatbots to elevate customer engagement, streamline automation, and provide support across all departments of your organization.",
+        img: AIIntegration,
+    },
+    {
+        title: "Customized AI Voice Assistants",
+        description: "We create AI voice assistants that understand and respond to user queries accurately, offering instant, reliable assistance and thereby transforming the way your business interacts with its customers and employees.",
+        img: UpgradeMaintenance,
+    },
+    {
+        title: "Custom CRM/ERP/CM Bots",
+        description: "We create intelligent bots that seamlessly integrate with your CRM, ERP and CM systems, automating routine tasks, providing real-time data insights, and optimizing workflow efficiency, empowering your organization to drive operational excellence.",
         img: CreativeDesign,
     },
     {
-        title: "Extensive Technical Skills",
-        description: "We have deep knowledge of ML, programming languages like Python, AI frameworks like TensorFlow, data engineering tools like Hadoop and other vital AI technologies. Our proficiency in foundation models, such as GPT, Llama, PaLM, Claude, Gemini, Mixtral or Mistral, enables us to create robust GenAI solutions.",
+        title: "Social Media-focused Chatbots",
+        description: "Our comprehensive chatbot development service is tailored to your unique needs, building customized conversational and messaging bots compatible for integration across a range of social media platforms, including Facebook and Twitter.",
         img: WorkflowAutomation,
     },
     {
-        title: "End-to-end Development",
-        description: "We align our AI solutions with your business goals by following a structured plan encompassing everything from use case identification and risk management to prototype creation, solution development and maintenance, ensuring the solutions align with your strategic objectives.",
+        title: "Transactional Chatbots",
+        description: "Our transactional chatbots are designed to facilitate specific transactions, such as processing orders, booking reservations, or handling payments. They are ideal for use in e-commerce and customer service applications.",
         img: AIIntegration2,
     },
     {
-        title: "Responsible AI Development",
-        description: "We are committed to creating transparent and ethical AI solutions. We prioritize fairness, accountability, and privacy in AI systems, ensuring they comply with all regulatory compliance standards and benefit society at large.",
+        title: "Retrieval-based Chatbot Solutions",
+        description: "We design and develop efficient retrieval-based chatbots for consistent and timely interactions. Designed to choose from predefined responses, these chatbots ensure accuracy and quick turnarounds, making them ideal for customer support, FAQs, and more.",
         img: UpgradeMaintenance2,
     },
     
 ];
 const approachs = [
     {
-        title: "Assessment Phase",
-        description: "Understanding your organization’s current state and needs to lay the foundation for a successful AI strategy.",
+        title: "Extensive Development Expertise",
+        description: "Backed by a solid track record in developing powerful, intelligent chatbot solutions, LeewayHertz capitalizes on its wealth of experience and a proficient developer team to deliver tailor-made, highly performant chatbot applications aligned with clients’ specific business needs.",
         img: CreativeDesign2,
     },
     {
-        title: "Strategy Development",
-        description: "Crafting a clear AI strategy for your use case, covering aspects like cost, time frame, security and privacy.",
+        title: "Experience Building Diverse Chatbots",
+        description: "Whether it’s customer service chatbots, e-commerce assistants, virtual health advisors, or any other type of chatbot, we have an extensive experience and proven track record of delivering tailored and effective solutions that cater to various industry needs.",
         img: Machine2,
     },
     {
-        title: "Data Collection and Preparation",
-        description: "High-quality, relevant data is critical for AI success. Thus, we collect your data and prepare it for model training.",
+        title: "Use of Advanced Technologies",
+        description: "By harnessing the power of advanced technologies like Natural Language Processing (NLP) and Machine Learning (ML), we develop sophisticated chatbots capable of understanding natural human language and interacting efficiently with users.",
         img: DataAnalysis2,
     },
     {
-        title: "Custom Model Development",
-        description: "We create a domain-specific AI model by fine-tuning it with your proprietary data to ensure it meets your business-specific needs.",
+        title: "Customization and Personalization",
+        description: "We specialize in building customized chatbot solutions that will cater to your unique business requirements. Whether it’s customer support, lead generation, or any other objective, we deliver tailored solutions aligned with your industry, brand, and target audience.",
         img: DomainSpecific2,
     },
     {
-        title: "Model Integration/Solution Development",
-        description: "Using the fine-tuned model, we then build a solution like a chatbot or recommendation system to enhance your workflows.",
+        title: "Scalable Chatbot Solutions",
+        description: "We build scalable chatbots that empower your business to grow and adapt effortlessly. With our expertise, you can confidently deploy chatbots that evolve with your business needs, driving efficiency and customer satisfaction while future-proofing your digital ecosystem.",
         img: AISolutions2,
     },
     {
-        title: "Integration Into Workflows",
-        description: "We streamline the process of AI adoption for you by seamlessly incorporating the solution into your current infrastructure.",
+        title: "We Prioritize Security",
+        description: "We specialize in crafting secure chatbots that prioritize user data protection and trust. Our comprehensive approach encompasses robust encryption, stringent authentication and authorization protocols, regular security audits, and strict compliance with data privacy regulations.",
         img: AIIntegration3,
-    },
-    {
-        title: "Monitoring and Maintenance",
-        description: "Continuous oversight and maintenance ensure that the AI solution remains effective over time and adapts to changes.",
-        img: UpgradeMaintenance3,
     },
     
 ];
@@ -119,7 +113,7 @@ export default function AIChatbotServices() {
         <>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Our AI Consulting Services</h2>
+                    <h2 className='mb-3'>AI Chatbot Development Services We Offer</h2>
                 </div>
             </div>
             <div className="matginSet">
@@ -137,13 +131,13 @@ export default function AIChatbotServices() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Why Choose Zyntellect for AI Consulting Services?</h2>
+                    <h2 className='mb-3'>AI Chatbots We Develop</h2>
                 </div>
             </div>
             <div className="matginSet">
                 <div className="row mt-lg-4 mt-sm-4 mt-1">
                     {supports.map((support, index) => (
-                        <div className="col-xl-6 col-lg-6 col-md-6 mt-sm-5 mt-4" key={index}>
+                        <div className="col-xl-4 col-lg-6 col-md-6 mt-sm-5 mt-4" key={index}>
                             <div className="extractCard ourGenerativeCard  h-100">
                                 <img src={support.img} alt={support.title} />
                                 <h4>{support.title}</h4>
@@ -155,7 +149,7 @@ export default function AIChatbotServices() {
             </div>
             <div className="marginSet">
                 <div className="mainHeroSection mt-0 pt-lg-4 pt-0">
-                    <h2 className='mb-3'>Our Approach to AI Consulting</h2>
+                    <h2 className='mb-3'>Why Choose LeewayHertz for Custom AI Chatbot Development?</h2>
                 </div>
             </div>
             <div className="matginSet">
